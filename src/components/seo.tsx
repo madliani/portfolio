@@ -1,58 +1,43 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import { Helmet } from "react-helmet";
 
 interface SEOProps {
-  description?: string;
-  lang?: string;
-  meta?: Array<{ name: string; content: string }>;
-  title: string;
+    description?: string;
+    lang?: string;
+    meta?: Array<{ name: string; content: string }>;
+    title: string;
 }
 
-function SEO({ description = '', lang = 'en', meta = [], title }: SEOProps) {
-  const { site }: any = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `
-  );
+function SEO({ description, lang = "en", meta = [], title }: SEOProps) {
+    const defaultTitle = "The Portfolio";
 
-  const metaDescription: string = description || site.siteMetadata.description;
-  const defaultTitle: string = site.siteMetadata?.title;
-
-  return (
-    <Helmet
-      htmlAttributes={{
-        lang
-      }}
-      title={title}
-      titleTemplate={defaultTitle ? `${defaultTitle} | %s` : ''}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription
-        },
-        {
-          property: `og:title`,
-          content: title
-        },
-        {
-          property: `og:description`,
-          content: metaDescription
-        },
-        {
-          property: `og:type`,
-          content: `website`
-        }
-      ].concat(meta)}
-    />
-  );
+    return (
+        <Helmet
+            // eslint-disable-next-line react-perf/jsx-no-new-object-as-prop
+            htmlAttributes={{
+                lang
+            }}
+            title={title}
+            titleTemplate={defaultTitle ? `${defaultTitle} | %s` : ""}
+            meta={[
+                {
+                    name: "description",
+                    content: description
+                },
+                {
+                    property: "og:title",
+                    content: title
+                },
+                {
+                    property: "og:description",
+                    content: description
+                },
+                {
+                    property: "og:type",
+                    content: "website"
+                }
+            ].concat(meta)}
+        />
+    );
 }
 
 export default SEO;

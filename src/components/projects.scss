@@ -1,0 +1,34 @@
+.portfolio-item {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+
+.portfolio-item-caption {
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.portfolio-item-caption:hover {
+    opacity: 1;
+}
+
+.portfolio-img {
+    height: 200px;
+    width: 350px;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .portfolio-img {
+        height: 200px;
+        width: 350px;
+    }
+    .portfolio-item-caption:hover {
+        opacity: 0;
+    }
+}
