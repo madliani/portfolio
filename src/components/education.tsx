@@ -13,14 +13,31 @@ const Education: React.FC = () => {
                 {/* Row 2 */}
                 <div className="row text-start">
                     <EducationEntry
-                        schoolName="University of Pennsylvania"
-                        degree="Professional Certificate - Full-Stack Development"
-                        startDate="2020"
-                        endDate="2021"
+                        schoolName={
+                            <a
+                                href="https://petrsu.ru/en"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Petrozavodsk State University (PetrSU)
+                            </a>
+                        }
+                        degree="Master's degree, Mathematics"
+                        startDate="2018"
+                        endDate="2020"
+                        className="mb-3"
                     />
                     <EducationEntry
-                        schoolName="Rutgers, The State University of New Jersey"
-                        degree={`Bachelor's of Science - Biology`}
+                        schoolName={
+                            <a
+                                href="https://petrsu.ru/en"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Petrozavodsk State University (PetrSU)
+                            </a>
+                        }
+                        degree="Bachelor's degree, Electrical and Electronics Engineering"
                         startDate="2014"
                         endDate="2018"
                     />

@@ -11,9 +11,9 @@ Visitors can download a copy of my resume from the `About` page. The `Portfolio`
 page hosts some of the projects I have built in my free time. You can get in
 touch with me by sending mail.
 
-## Screenshot
+## Portfolio Screenshots
 
-![Screenshot](./src/assets/images/screenshot.png)
+![Homepage](./src/assets/images/portfolio.png)
 
 ## Built With
 
@@ -24,4 +24,7 @@ touch with me by sending mail.
 ## Author
 
 Rakhman Abdurakhmanov - [Portfolio](https://crystallographer.github.io) |
-[GitHub](https://github.com/crystallographer)
+[GitHub](https://github.com/crystallographer).
+
+Based on [Portfolio](https://github.com/ksentak/keaton-portfolio) by
+[Keaton Sentak](https://keatonsentak.com).
