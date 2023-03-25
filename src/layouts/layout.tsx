@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import Snowfall from "react-snowfall";
 
 import Navbar from "../components/navbar";
 
@@ -9,6 +10,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
     return (
         <>
+            <Snowfall />
             <Navbar />
             <main>{children}</main>
         </>

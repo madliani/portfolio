@@ -67,6 +67,7 @@ specifiers:
   react-hook-form: ^7.43.7
   react-router: ^6.9.0
   react-router-dom: ^6.9.0
+  react-snowfall: ^1.2.1
   react-toastify: ^9.1.2
   reactstrap: ^9.1.6
   sass: ^1.60.0
@@ -91,6 +92,7 @@ dependencies:
   react-hook-form: 7.43.7_react@18.2.0
   react-router: 6.9.0_react@18.2.0
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
+  react-snowfall: 1.2.1_biqbaboplfbrettd7655fr4n2y
   react-toastify: 9.1.2_biqbaboplfbrettd7655fr4n2y
   reactstrap: 9.1.6_biqbaboplfbrettd7655fr4n2y
 
@@ -7100,6 +7102,17 @@ packages:
       react: ^16.3.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /react-snowfall/1.2.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-d2UR3nDq3F0DJGaTfJ0QNbBo76UZHtT9wHFj+ePxAl4FgSxWBhxB/Bjn06f5iDBwhgwiZ7CZmv3lwfNvjo6a+w==}
+    peerDependencies:
+      react: "^16.8 ||\_17.x || 18.x"
+      react-dom: ^16.8 || 17.x || 18.x
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-fast-compare: 3.2.1
     dev: false
 
   /react-toastify/9.1.2_biqbaboplfbrettd7655fr4n2y:
