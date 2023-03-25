@@ -16,7 +16,7 @@
     text-decoration: underline;
 }
 
-.navbar-nav .active {
+.navbar-nav:active {
     color: var(--light);
 }
 

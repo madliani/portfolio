@@ -33,33 +33,21 @@ const Navbar: React.FC = () => {
                             {/* Home */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
-                                <Link
-                                    to="/"
-                                    // activeClassName="active"
-                                    className="nav-Link"
-                                >
+                                <Link to="/" className="nav-Link">
                                     Home
                                 </Link>
                             </li>
                             {/* About */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
-                                <Link
-                                    to="/about"
-                                    // activeClassName="active"
-                                    className="nav-Link"
-                                >
+                                <Link to="/about" className="nav-Link">
                                     About
                                 </Link>
                             </li>
                             {/* Portfolio */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
-                                <Link
-                                    to="/portfolio"
-                                    // activeClassName="active"
-                                    className="nav-Link"
-                                >
+                                <Link to="/portfolio" className="nav-Link">
                                     Portfolio
                                 </Link>
                             </li>
