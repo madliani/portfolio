@@ -63,17 +63,6 @@ const Navbar: React.FC = () => {
                                     Portfolio
                                 </Link>
                             </li>
-                            {/* Contact */}
-                            {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
-                            <li onClick={toggleNav}>
-                                <Link
-                                    to="/contact"
-                                    // activeClassName="active"
-                                    className="nav-Link"
-                                >
-                                    Contact
-                                </Link>
-                            </li>
                         </ul>
                     </div>
                 </div>

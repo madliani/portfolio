@@ -7,10 +7,10 @@
 ![Built with TypeScript](https://img.shields.io/badge/Built_with-TypeScript-2d79c7?labelColor=5b5b5b&style=flat)
 
 This is the source code for my personal portfolio site. The site includes 4
-pages: Home, About, Portfolio, & Contact. The `Home` page displays my social
-links. Visitors can download a copy of my resume from the `About` page. The
-`Portfolio` page hosts some of the projects I have built in my free time. You
-can get in touch with me by filling out the form on the `Contact` page.
+pages: Home, About, Portfolio. The `Home` page displays my social links.
+Visitors can download a copy of my resume from the `About` page. The `Portfolio`
+page hosts some of the projects I have built in my free time. You can get in
+touch with me by sending mail.
 
 ## Deployed Application
 

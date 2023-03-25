@@ -1,5 +1,4 @@
 import CodeIt from "../assets/images/code-it.png";
-import ContactForm from "../assets/images/contact-form.png";
 import EaglesApi from "../assets/images/eagles-api.png";
 import ReactColors from "../assets/images/react-colors.png";
 import SmartCredential from "../assets/images/smart-credential.png";
@@ -62,20 +61,6 @@ const Projects: React.FC = () => {
                     />
 
                     {/* Project 5 */}
-                    <ProjectItem
-                        imgSrc={ContactForm}
-                        imgAlt={"React Contact Form"}
-                        projectDescription={`React Contact Form is an application that was built to serve as a template to those who want to create a contact form in react without any back-end code.`}
-                        title={"React Contact Form"}
-                        viewCode={
-                            "https://github.com/ksentak/react-contact-form"
-                        }
-                        viewSite={
-                            "https://react-contact-form-bfug5.ondigitalocean.app/"
-                        }
-                    />
-
-                    {/* Project 6 */}
                     <ProjectItem
                         imgSrc={ReactColors}
                         imgAlt={"React-Colors Project"}
