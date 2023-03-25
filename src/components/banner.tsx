@@ -6,9 +6,10 @@ const Banner: React.FC = () => {
             <div className="jumbotron jumbotron-fluid">
                 <div className="banner-content">
                     <h1>
-                        <span className="main-color">Keaton</span> Sentak
+                        <span className="main-color">Rakhman</span>{" "}
+                        Abdurakhmanov
                     </h1>
-                    <h6>Software Engineer</h6>
+                    <h6>Front-end Developer</h6>
                     <Socials />
                 </div>
             </div>

@@ -1,9 +1,8 @@
 import {
     faGithub,
-    faLinkedinIn,
-    faMedium,
-    faStackOverflow
+    faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Socials: React.FC = () => {
@@ -14,7 +13,7 @@ const Socials: React.FC = () => {
                     {/* LinkedIn */}
                     <li className="social-inline-item">
                         <a
-                            href="https://www.linkedin.com/in/ksentak/"
+                            href="https://linkedin.com/in/rakhman-abdurakhmanov-976b4b253"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -24,34 +23,21 @@ const Socials: React.FC = () => {
                     {/* GitHub */}
                     <li className="social-inline-item">
                         <a
-                            href="https://github.com/ksentak"
+                            href="https://github.com/crystallographer"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <FontAwesomeIcon icon={faGithub} fixedWidth />
                         </a>
                     </li>
-                    {/* Stack Overflow */}
-                    <li className="social-inline-item">
-                        <a
-                            href="https://stackoverflow.com/story/ksentak"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FontAwesomeIcon
-                                icon={faStackOverflow}
-                                fixedWidth
-                            />
-                        </a>
-                    </li>
                     {/* Email */}
                     <li className="social-inline-item">
                         <a
-                            href="https://medium.com/@ksentak"
+                            href="mailto:r0475582@proton.me"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <FontAwesomeIcon icon={faMedium} fixedWidth />
+                            <FontAwesomeIcon icon={faEnvelope} fixedWidth />
                         </a>
                     </li>
                 </ul>
