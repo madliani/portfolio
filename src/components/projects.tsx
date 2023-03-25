@@ -1,4 +1,4 @@
-import PortfolioScreenshot from "../assets/images/portfolio.png";
+import PortfolioHomepage from "../assets/images/portfolio-homepage.png";
 import ProjectItem from "./projectItem";
 
 const Projects: React.FC = () => {
@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
                 <div className="row text-center">
                     {/* Project 1 */}
                     <ProjectItem
-                        imgSrc={PortfolioScreenshot}
+                        imgSrc={PortfolioHomepage}
                         imgAlt={"Portfolio"}
                         projectDescription={`My personal portfolio that was built with React.`}
                         title={"Portfolio"}
