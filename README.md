@@ -11,7 +11,7 @@ Visitors can download a copy of my resume from the `About` page. The `Portfolio`
 page hosts some of the projects I have built in my free time. You can get in
 touch with me by sending mail.
 
-## Portfolio Screenshots
+## Screenshots
 
 ![Homepage](./src/assets/images/portfolio.png)
 
@@ -21,7 +21,7 @@ touch with me by sending mail.
 -   React
 -   TypeScript
 
-## Author
+## Authors
 
 Rakhman Abdurakhmanov - [Portfolio](https://crystallographer.github.io) |
 [GitHub](https://github.com/crystallographer).
