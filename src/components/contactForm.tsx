@@ -55,7 +55,7 @@ const ContactForm: React.FC = () => {
                 message: data.message
             };
 
-            const res = await fetch(".netlify/functions/sendmail", {
+            const res = await fetch("../helpers/sendmail", {
                 method: "POST",
                 body: JSON.stringify(templateParams)
             });

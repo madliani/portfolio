@@ -28,7 +28,7 @@ const Info: React.FC = () => {
                             challenges that benefit the end user.
                         </p>
                         <a
-                            href={`CV.pdf`}
+                            href={"../assets/docs/CV.pdf"}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
