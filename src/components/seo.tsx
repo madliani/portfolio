@@ -13,7 +13,7 @@ function SEO({
     meta = [],
     title
 }: SEOProps) {
-    const defaultTitle = "The Portfolio";
+    const defaultTitle = "Rakhman A.";
 
     return (
         <Helmet
@@ -35,10 +35,6 @@ function SEO({
                 {
                     property: "og:description",
                     content: description
-                },
-                {
-                    property: "og:type",
-                    content: "website"
                 }
             ].concat(meta)}
         />
