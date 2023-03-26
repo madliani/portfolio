@@ -29,7 +29,7 @@
         "react-toastify": "^9.1.2",
         "reactstrap": "^9.1.6"
     },
-    "description": "My personal portfolio that was built with Bootstrap, React and TypeScript.",
+    "description": "My personal portfolio that was built with Bootstrap, React, SASS and TypeScript.",
     "devDependencies": {
         "@commitlint/cli": "^17.5.0",
         "@commitlint/config-conventional": "^17.4.4",

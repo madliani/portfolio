@@ -7,7 +7,12 @@ interface SEOProps {
     title: string;
 }
 
-function SEO({ description, lang = "en", meta = [], title }: SEOProps) {
+function SEO({
+    description = "My personal portfolio that was built with Bootstrap, React, SASS and TypeScript.",
+    lang = "en",
+    meta = [],
+    title
+}: SEOProps) {
     const defaultTitle = "The Portfolio";
 
     return (
