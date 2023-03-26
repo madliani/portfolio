@@ -18,11 +18,20 @@
     --greenAlt: #4ec9b0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: "JetBrains Mono", monospace;
     background: var(--dark);
     color: var(--light);
     line-height: 26px;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
 }
 
 h1,
