@@ -103,7 +103,9 @@
     "engineStrict": true,
     "homepage": "https://crystallographer.github.io",
     "keywords": [
+        "bootstrap",
         "parcel",
+        "pnpm",
         "portfolio",
         "react",
         "sass",
