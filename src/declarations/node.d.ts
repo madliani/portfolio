@@ -1,5 +1,5 @@
 declare namespace NodeJS {
     interface ProcessEnv {
-        readonly NODE_ENV: "development" | "production" | "test";
+        readonly PROFILE_IMAGE: string | undefined;
     }
 }
