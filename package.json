@@ -125,16 +125,16 @@
         "url": "git+https://github.com/crystallographer/portfolio.git"
     },
     "scripts": {
-        "build": "parcel build src/index.html --no-source-maps",
-        "deploy": "node deploy.mjs",
-        "format": "prettier --write 'src/**/*.{ts,tsx,scss}'",
-        "lint": "tsc --noEmit && eslint --fix 'src/**/*.{js,ts,tsx}' && stylelint --fix 'src/**/*.scss'",
+        "build": "parcel build ./src/index.html --no-source-maps",
+        "deploy": "node ./deploy.mjs",
+        "format": "prettier --write './src/**/*.{ts,tsx,scss}'",
+        "lint": "tsc --noEmit && eslint --fix 'src/**/*.{ts,tsx}' && stylelint --fix './src/**/*.scss'",
         "postinstall": "husky install",
         "pre-commit": "lint-staged",
         "prepare": "husky install",
-        "serve": "parcel serve src/index.html --open --port 8080",
+        "serve": "parcel serve ./src/index.html --open --port 8080",
         "test": "jest",
-        "watch": "parcel watch src/index.html"
+        "watch": "parcel watch ./src/index.html"
     },
     "version": "1.0.0"
 }
