@@ -72,7 +72,7 @@ const Info: React.FC = () => {
                         </div>
                         <a
                             href={
-                                "https://raw.githubusercontent.com/crystallographer/portfolio/main/src/assets/docs/CV.pdf"
+                                "https://raw.githubusercontent.com/crystallographer/portfolio/main/assets/docs/CV.pdf"
                             }
                             target="_blank"
                             rel="noopener noreferrer"

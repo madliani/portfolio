@@ -1,4 +1,4 @@
-import PortfolioHomepage from "../assets/images/portfolio-homepage.png";
+import PortfolioHomepage from "../../assets/images/portfolio-homepage.png";
 import ProjectItem from "./projectItem";
 
 const Projects: React.FC = () => {

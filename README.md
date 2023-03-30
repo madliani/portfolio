@@ -13,7 +13,7 @@ touch with me by sending mail.
 
 ## Screenshots
 
-![Homepage](./src/assets/images/portfolio-homepage.png)
+![Homepage](./assets/images/portfolio-homepage.png)
 
 ## Built With
 
