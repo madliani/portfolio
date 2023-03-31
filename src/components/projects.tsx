@@ -19,11 +19,13 @@ const Projects: React.FC = () => {
                     {/* Project 1 */}
                     <ProjectItem
                         imgSrc={PortfolioHomepage}
-                        imgAlt={"Portfolio"}
-                        projectDescription={`My personal portfolio that was built with React.`}
-                        title={"Portfolio"}
+                        imgAlt={"The Portfolio"}
+                        projectDescription={
+                            "My personal portfolio that was built with Bootstrap, React, SASS and TypeScript."
+                        }
+                        title={"The Portfolio"}
                         viewCode={
-                            "https://github.com/crystalographer/portfolio"
+                            "https://github.com/crystallographer/portfolio"
                         }
                         viewSite={"https://crystalographer.github.io"}
                     />
