@@ -2,10 +2,10 @@ import { createRoot } from "react-dom/client";
 
 import { App } from "./app/App";
 
-const rootElement = document.getElementById("root");
+try {
+    const root = document.getElementById("root");
 
-if (rootElement) {
-    const root = createRoot(rootElement);
-
-    root.render(<App />);
+    root ? createRoot(root)?.render(<App />) : undefined;
+} catch (error) {
+    console.log(error);
 }
