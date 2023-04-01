@@ -18,7 +18,7 @@
             "type": "image/png"
         }
     ],
-    "name": "The Portfolio",
+    "name": "Portfolio",
     "short_name": "Portfolio",
     "start_url": ".",
     "theme_color": "#000000"

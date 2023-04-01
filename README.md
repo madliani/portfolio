@@ -1,7 +1,7 @@
-# The Portfolio
+# Portfolio
 
 <div align="center">
-    <img src="./assets/icons/apple-touch-icon.png" alt="The Portfolio logo" />
+    <img src="./assets/icons/apple-touch-icon.png" alt="Portfolio logo" />
 
     My Portfolio Website
 
