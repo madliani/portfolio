@@ -19,15 +19,20 @@ const Projects: React.FC = () => {
                     {/* Project 1 */}
                     <ProjectItem
                         imgSrc={PortfolioHomepage}
-                        imgAlt={"Portfolio"}
-                        projectDescription={
-                            "My personal portfolio that was built with Bootstrap, React, SASS and TypeScript."
-                        }
-                        title={"Portfolio"}
-                        viewCode={
-                            "https://github.com/crystallographer/portfolio"
-                        }
-                        viewSite={"https://crystalographer.github.io"}
+                        imgAlt="Portfolio homepage"
+                        projectDescription="My personal portfolio that was built with Bootstrap, React, SASS and TypeScript."
+                        title="Portfolio"
+                        viewCode="https://github.com/crystallographer/portfolio"
+                        viewSite="https://crystalographer.github.io"
+                    />
+
+                    {/* Project 2 */}
+                    <ProjectItem
+                        imgSrc="https://raw.githubusercontent.com/crystallographer/reactify/main/assets/images/reactify-homepage.png"
+                        imgAlt="Reactify homepage"
+                        projectDescription="The React Starter Kit."
+                        title="Reactify"
+                        viewCode="https://github.com/crystallographer/reactify"
                     />
                 </div>
             </div>

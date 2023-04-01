@@ -13,8 +13,8 @@ interface Props {
     imgSrc: string;
     imgAlt: string;
     viewCode: string;
-    viewSite: string;
     projectDescription: string;
+    viewSite?: string;
 }
 
 const ProjectItem: React.FC<Props> = ({
@@ -88,7 +88,7 @@ const ProjectItem: React.FC<Props> = ({
                                 <p>{projectDescription}</p>
                                 {/* Modal Links */}
                                 <div className="modal-links text-center">
-                                    <div className="view-site">
+                                    {viewSite && <div className="view-site">
                                         <a
                                             href={viewSite}
                                             target="_blank"
@@ -102,7 +102,7 @@ const ProjectItem: React.FC<Props> = ({
                                                 View Site
                                             </button>
                                         </a>
-                                    </div>
+                                    </div>}
                                     <div className="view-code">
                                         <a
                                             href={viewCode}
