@@ -1,5 +1,4 @@
-import { RouteObject } from "react-router";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouteObject } from "react-router-dom";
 
 import ErrorPage from "../pages/404";
 import About from "../pages/about";
