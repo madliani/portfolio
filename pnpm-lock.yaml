@@ -24,7 +24,6 @@ specifiers:
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^14.4.3
   '@types/jest': ^29.5.0
-  '@types/lodash': ^4.14.191
   '@types/node': ^18.15.9
   '@types/react': ^18.0.29
   '@types/react-dom': ^18.0.11
@@ -42,7 +41,6 @@ specifiers:
   eslint-plugin-jest-dom: ^4.0.3
   eslint-plugin-jest-extended: ^2.0.0
   eslint-plugin-jsx-a11y: ^6.7.1
-  eslint-plugin-lodash: ^7.4.0
   eslint-plugin-no-unsanitized: ^4.0.2
   eslint-plugin-promise: ^6.1.1
   eslint-plugin-react: ^7.32.2
@@ -114,7 +112,6 @@ devDependencies:
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 14.4.3_yxlyej73nftwmh2fiao7paxmlm
   '@types/jest': 29.5.0
-  '@types/lodash': 4.14.191
   '@types/node': 18.15.9
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
@@ -131,7 +128,6 @@ devDependencies:
   eslint-plugin-jest-dom: 4.0.3_eslint@8.36.0
   eslint-plugin-jest-extended: 2.0.0_vgl77cfdswitgr47lm5swmv43m
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.36.0
-  eslint-plugin-lodash: 7.4.0_eslint@8.36.0
   eslint-plugin-no-unsanitized: 4.0.2_eslint@8.36.0
   eslint-plugin-promise: 6.1.1_eslint@8.36.0
   eslint-plugin-react: 7.32.2_eslint@8.36.0
@@ -2329,10 +2325,6 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/lodash/4.14.191:
-    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
-    dev: true
-
   /@types/minimatch/3.0.5:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
@@ -4193,16 +4185,6 @@ packages:
       object.entries: 1.1.6
       object.fromentries: 2.0.6
       semver: 6.3.0
-    dev: true
-
-  /eslint-plugin-lodash/7.4.0_eslint@8.36.0:
-    resolution: {integrity: sha512-Tl83UwVXqe1OVeBRKUeWcfg6/pCW1GTRObbdnbEJgYwjxp5Q92MEWQaH9+dmzbRt6kvYU1Mp893E79nJiCSM8A==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      eslint: '>=2'
-    dependencies:
-      eslint: 8.36.0
-      lodash: 4.17.21
     dev: true
 
   /eslint-plugin-no-unsanitized/4.0.2_eslint@8.36.0:
