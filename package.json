@@ -27,7 +27,6 @@
         "react-mouse-particles": "^1.1.5",
         "react-router-dom": "^6.9.0",
         "react-simple-typewriter": "^5.0.1",
-        "react-toastify": "^9.1.2",
         "reactstrap": "^9.1.6"
     },
     "description": "My personal portfolio that was built with Bootstrap, React, SASS and TypeScript.",

@@ -71,7 +71,6 @@ specifiers:
   react-mouse-particles: ^1.1.5
   react-router-dom: ^6.9.0
   react-simple-typewriter: ^5.0.1
-  react-toastify: ^9.1.2
   reactstrap: ^9.1.6
   sass: ^1.60.0
   stylelint: ^14.16.1
@@ -96,7 +95,6 @@ dependencies:
   react-mouse-particles: 1.1.5
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
   react-simple-typewriter: 5.0.1_biqbaboplfbrettd7655fr4n2y
-  react-toastify: 9.1.2_biqbaboplfbrettd7655fr4n2y
   reactstrap: 9.1.6_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
@@ -3115,11 +3113,6 @@ packages:
     resolution: {integrity: sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==}
     engines: {node: '>=0.8'}
     dev: true
-
-  /clsx/1.2.1:
-    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
-    engines: {node: '>=6'}
-    dev: false
 
   /co/4.6.0:
     resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}
@@ -7266,17 +7259,6 @@ packages:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: false
-
-  /react-toastify/9.1.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-PBfzXO5jMGEtdYR5jxrORlNZZe/EuOkwvwKijMatsZZm8IZwLj01YvobeJYNjFcA6uy6CVrx2fzL9GWbhWPTDA==}
-    peerDependencies:
-      react: '>=16'
-      react-dom: '>=16'
-    dependencies:
-      clsx: 1.2.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
