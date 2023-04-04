@@ -1,5 +1,6 @@
+// eslint-disable-next-line import/default
+import ParticlesBg from "particles-bg";
 import { ReactNode } from "react";
-import Snowfall from "react-snowfall";
 
 import Navbar from "../components/navbar";
 
@@ -10,7 +11,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
     return (
         <>
-            <Snowfall />
+            <ParticlesBg bg={true} type="lines" />
             <Navbar />
             <main>{children}</main>
         </>
