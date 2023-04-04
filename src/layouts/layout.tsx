@@ -16,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
             {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
             {/* @ts-ignore */}
             <MouseParticles />
-            <ParticlesBg bg={true} type="lines" />
+            <ParticlesBg bg={true} type="cobweb" />
             <Navbar />
             <main>{children}</main>
         </>
