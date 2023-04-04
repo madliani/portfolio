@@ -70,6 +70,7 @@ specifiers:
   react-hook-form: ^7.43.7
   react-mouse-particles: ^1.1.5
   react-router-dom: ^6.9.0
+  react-simple-typewriter: ^5.0.1
   react-toastify: ^9.1.2
   reactstrap: ^9.1.6
   sass: ^1.60.0
@@ -94,6 +95,7 @@ dependencies:
   react-hook-form: 7.43.7_react@18.2.0
   react-mouse-particles: 1.1.5
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
+  react-simple-typewriter: 5.0.1_biqbaboplfbrettd7655fr4n2y
   react-toastify: 9.1.2_biqbaboplfbrettd7655fr4n2y
   reactstrap: 9.1.6_biqbaboplfbrettd7655fr4n2y
 
@@ -7255,6 +7257,17 @@ packages:
       react: ^16.3.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /react-simple-typewriter/5.0.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-toastify/9.1.2_biqbaboplfbrettd7655fr4n2y:
