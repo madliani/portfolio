@@ -1,4 +1,30 @@
+import styled from "styled-components";
+
 const PROFILE_IMAGE = process.env.PROFILE_IMAGE;
+
+const AboutText = styled.div`
+    line-height: 2rem;
+`;
+
+const ResumeButton = styled.button`
+    background-color: var(--dark);
+    color: var(--light) !important;
+    padding: 18px 40px;
+    border: 2px solid var(--greenAlt);
+    border-radius: 1.25rem;
+    margin: 2rem 0 1rem 0;
+
+    &:hover {
+        background-color: var(--dark);
+        color: var(--greenAlt) !important;
+    }
+`;
+
+const Image = styled.img`
+    height: 350px;
+    width: 300px;
+    border-radius: 1.25rem;
+`;
 
 const Info: React.FC = () => {
     return (
@@ -15,7 +41,7 @@ const Info: React.FC = () => {
                 {/* Row 2 */}
                 <div className="row text-start">
                     <div className="col-md-6 about-section">
-                        <div className="about-text">
+                        <AboutText>
                             <p>
                                 My journey into front-end development began at a
                                 hackathon organized by{" "}
@@ -69,7 +95,7 @@ const Info: React.FC = () => {
                                 as the main front-end developer in their startup
                                 project.
                             </p>
-                        </div>
+                        </AboutText>
                         <a
                             href={
                                 "https://raw.githubusercontent.com/crystallographer/portfolio/main/assets/docs/CV.pdf"
@@ -77,16 +103,13 @@ const Info: React.FC = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className="resume-btn">
-                                Download Resume
-                            </button>
+                            <ResumeButton>Download Resume</ResumeButton>
                         </a>
                     </div>
                     {PROFILE_IMAGE && (
                         <div className="col-md-6 mb-3 d-flex justify-content-center">
-                            <img
+                            <Image
                                 src={`data:image/png;base64,${PROFILE_IMAGE}`}
-                                className="profile-image"
                                 alt="Profile"
                             />
                         </div>

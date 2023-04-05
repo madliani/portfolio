@@ -1,7 +1,120 @@
-import { RouterProvider } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { router } from "../router/router";
 
+import { RouterProvider } from "react-router-dom";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+    :root {
+        --light: #fff;
+        --dark: #2d2d30;
+        --dark-lighten: #36454f;
+        --gray: #d3d3d3;
+        --redAlt: #d9514e;
+        --greenAlt: #4ec9b0;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        font-family: "JetBrains Mono", monospace;
+        background: var(--dark);
+        color: var(--light);
+        line-height: 26px;
+        height: 100%;
+    }
+
+    #root {
+        height: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        word-wrap: break-word;
+        color: var(--light);
+    }
+
+    .alt-green {
+        color: var(--greenAlt);
+    }
+
+    h1:not(:last-child),
+    h2:not(:last-child),
+    h3:not(:last-child),
+    h4:not(:last-child),
+    h5:not(:last-child),
+    h6:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+
+    a:hover {
+        color: var(--light);
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+    }
+
+    .main-color {
+        color: var(--greenAlt);
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    ul,
+    ol {
+        padding-left: 20px;
+    }
+
+    .primary-btn {
+        background-color: var(--dark);
+        color: var(--light) !important;
+        padding: 15px 50px;
+        border: 2px solid var(--greenAlt);
+        border-radius: 1.25rem;
+        margin-bottom: 25px;
+    }
+
+    .primary-btn:hover {
+        background-color: var(--dark);
+        color: var(--greenAlt) !important;
+    }
+
+    .primary-btn:disabled {
+        background-color: #d3d3d3;
+    }
+
+    @media (min-width: 1400px) {
+        .container {
+            max-width: 1140px !important;
+        }
+    }
+`;
+
 export const App = function () {
-    return <RouterProvider router={router} />;
+    return (
+        <>
+            <GlobalStyle />
+            <RouterProvider router={router} />
+        </>
+    );
 };

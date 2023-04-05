@@ -8,7 +8,7 @@ interface SEOProps {
 }
 
 function SEO({
-    description = "My personal portfolio that was built with Bootstrap, React, SASS and TypeScript.",
+    description = "My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript.",
     lang = "en",
     meta = [],
     title

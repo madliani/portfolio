@@ -1,5 +1,53 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+const NavbarWrapper = styled.nav`
+    padding: 30px 0;
+`;
+
+const Nav = styled.ul`
+    a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin: 0 10px;
+        font-weight: 500;
+        color: var(--light);
+        font-size: 18px;
+    }
+
+    a:hover {
+        color: var(--greenAlt);
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: var(--light);
+    }
+
+    @media (max-width: 768px) {
+        li {
+            padding-bottom: 7px;
+        }
+    }
+`;
+
+const Toggler = styled.button`
+    background: transparent !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    &:focus {
+        box-shadow: none;
+    }
+`;
+
+const TogglerIcon = styled.span`
+    background-image: url("../../assets/icons/toggler-icon.svg");
+    font-size: 24px;
+    text-align: right;
+    margin-right: 30px;
+`;
 
 const Navbar: React.FC = () => {
     const [menu, setAsOpen] = useState<boolean>(false);
@@ -12,10 +60,10 @@ const Navbar: React.FC = () => {
     const show: string = menu ? "show" : "";
 
     return (
-        <div className="Navbar">
-            <nav className="navbar navbar-expand-sm">
+        <div>
+            <NavbarWrapper className="navbar navbar-expand-sm">
                 <div className="container">
-                    <button
+                    <Toggler
                         className="navbar-toggler ms-auto"
                         type="button"
                         aria-controls="navbarMobile"
@@ -23,38 +71,32 @@ const Navbar: React.FC = () => {
                         aria-label="Toggle navigation"
                         onClick={toggleNav}
                     >
-                        <span className="navbar-toggler-icon" />
-                    </button>
+                        <TogglerIcon className="navbar-toggler-icon" />
+                    </Toggler>
                     <div
                         className={"collapse navbar-collapse " + show}
                         id="navbarMobile"
                     >
-                        <ul id="menu-primary" className="navbar-nav ms-auto">
+                        <Nav id="menu-primary" className="navbar-nav ms-auto">
                             {/* Home */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
-                                <Link to="/" className="nav-Link">
-                                    Home
-                                </Link>
+                                <Link to="/">Home</Link>
                             </li>
                             {/* About */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
-                                <Link to="/about" className="nav-Link">
-                                    About
-                                </Link>
+                                <Link to="/about">About</Link>
                             </li>
                             {/* Portfolio */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
-                                <Link to="/portfolio" className="nav-Link">
-                                    Portfolio
-                                </Link>
+                                <Link to="/portfolio">Portfolio</Link>
                             </li>
-                        </ul>
+                        </Nav>
                     </div>
                 </div>
-            </nav>
+            </NavbarWrapper>
         </div>
     );
 };

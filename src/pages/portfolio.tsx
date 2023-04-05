@@ -6,7 +6,7 @@ const Portfolio = () => {
     return (
         <Layout>
             <SEO title="Portfolio" />
-            <div className="Portfolio">
+            <div>
                 <Projects />
             </div>
         </Layout>

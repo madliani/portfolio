@@ -5,7 +5,7 @@ import Layout from "../layouts/layout";
 const Home = () => (
     <Layout>
         <SEO title="Home" />
-        <div className="Home">
+        <div>
             <Banner />
         </div>
     </Layout>

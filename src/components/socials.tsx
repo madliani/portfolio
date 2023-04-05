@@ -1,14 +1,40 @@
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import styled from "styled-components";
+
+const InlineItem = styled.li`
+    display: inline-block;
+    margin-top: 10px;
+
+    a {
+        height: 50px;
+        width: 50px;
+        background-color: var(--dark);
+        color: var(--light);
+        font-size: 20px;
+        padding: 12px;
+        border: 2px solid var(--greenAlt);
+        border-radius: 1.25rem;
+    }
+
+    a:hover {
+        background-color: var(--dark);
+        color: var(--greenAlt);
+    }
+
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+`;
 
 const Socials: React.FC = () => {
     return (
-        <div className="Socials">
+        <div>
             <div className="col-sm-12 text-center">
-                <ul className="social-list">
+                <ul>
                     {/* LinkedIn */}
-                    <li className="social-inline-item">
+                    <InlineItem>
                         <a
                             href="https://linkedin.com/in/rakhman-abdurakhmanov-976b4b253"
                             target="_blank"
@@ -16,9 +42,9 @@ const Socials: React.FC = () => {
                         >
                             <FontAwesomeIcon icon={faLinkedinIn} fixedWidth />
                         </a>
-                    </li>
+                    </InlineItem>
                     {/* GitHub */}
-                    <li className="social-inline-item">
+                    <InlineItem>
                         <a
                             href="https://github.com/crystallographer"
                             target="_blank"
@@ -26,9 +52,9 @@ const Socials: React.FC = () => {
                         >
                             <FontAwesomeIcon icon={faGithub} fixedWidth />
                         </a>
-                    </li>
+                    </InlineItem>
                     {/* Email */}
-                    <li className="social-inline-item">
+                    <InlineItem>
                         <a
                             href="mailto:r0475582@proton.me"
                             target="_blank"
@@ -36,7 +62,7 @@ const Socials: React.FC = () => {
                         >
                             <FontAwesomeIcon icon={faEnvelope} fixedWidth />
                         </a>
-                    </li>
+                    </InlineItem>
                 </ul>
             </div>
         </div>

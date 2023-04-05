@@ -3,7 +3,7 @@ import ProjectItem from "./projectItem";
 
 const Projects: React.FC = () => {
     return (
-        <div className="Projects">
+        <div>
             <div className="container">
                 {/* Row 1 */}
                 <div className="row">
@@ -20,12 +20,11 @@ const Projects: React.FC = () => {
                     <ProjectItem
                         imgSrc={PortfolioHomepage}
                         imgAlt="Portfolio homepage"
-                        projectDescription="My personal portfolio that was built with Bootstrap, React, SASS and TypeScript."
+                        projectDescription="My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript."
                         title="Portfolio"
                         viewCode="https://github.com/crystallographer/portfolio"
                         viewSite="https://crystalographer.github.io"
                     />
-
                     {/* Project 2 */}
                     <ProjectItem
                         imgSrc="https://raw.githubusercontent.com/crystallographer/reactify/main/assets/images/reactify-homepage.png"

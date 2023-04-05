@@ -8,7 +8,7 @@ const About = () => {
     return (
         <Layout>
             <SEO title="About" />
-            <div className="About">
+            <div>
                 <Info />
                 <Experience />
                 <Education />
