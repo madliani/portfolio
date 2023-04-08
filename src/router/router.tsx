@@ -5,7 +5,7 @@ import { ErrorPage } from "../pages/ErrorPage";
 import { Home } from "../pages/Home";
 import { Portfolio } from "../pages/Portfolio";
 
-const ROUTES: RouteObject[] = [
+const routes: RouteObject[] = [
     {
         path: "/",
         element: <Home />
@@ -24,4 +24,4 @@ const ROUTES: RouteObject[] = [
     }
 ];
 
-export const router = createBrowserRouter(ROUTES);
+export const router = createBrowserRouter(routes);
