@@ -171,9 +171,6 @@ devDependencies:
   eslint-plugin-react-hooks:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.38.0)
-  eslint-plugin-react-perf:
-    specifier: ^3.3.1
-    version: 3.3.1(eslint@8.38.0)
   eslint-plugin-regexp:
     specifier: ^1.14.0
     version: 1.14.0(eslint@8.38.0)
@@ -4246,15 +4243,6 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-    dependencies:
-      eslint: 8.38.0
-    dev: true
-
-  /eslint-plugin-react-perf@3.3.1(eslint@8.38.0):
-    resolution: {integrity: sha512-iOx2UtEOH50TmQhezTS4jbBAj/2gbrUdX+ZM28c2K9mwTvtRX6gdnd2P4WPQrejITDsAMNTCz95zu5HcjCD0xg==}
-    engines: {node: '>=6.9.1'}
-    peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       eslint: 8.38.0
     dev: true

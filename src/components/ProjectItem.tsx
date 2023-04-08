@@ -59,7 +59,7 @@ export const ProjectItem = function ({
     projectDescription
 }: Properties) {
     const [modal, setModal] = useState(false);
-    // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
+
     const toggle = () => {
         setModal(!modal);
     };

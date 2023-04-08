@@ -51,7 +51,7 @@ const TogglerIcon = styled.span`
 
 export const Header = function () {
     const [menu, setAsOpen] = useState(false);
-    // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
+
     const toggleNav = () => {
         setAsOpen(!menu);
     };
