@@ -114,7 +114,7 @@ const ModalButton = styled.button`
     }
 `;
 
-const ProjectItem: React.FC<Properties> = function ({
+const ProjectItem = function ({
     title,
     imgSrc,
     imgAlt,
@@ -124,7 +124,7 @@ const ProjectItem: React.FC<Properties> = function ({
 }: Properties) {
     const [modal, setModal] = useState<boolean>(false);
     // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
-    const toggle = (): void => setModal(!modal);
+    const toggle = () => setModal(!modal);
 
     return (
         <>

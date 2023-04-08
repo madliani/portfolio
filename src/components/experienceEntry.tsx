@@ -34,7 +34,7 @@ const Description = styled.p`
     line-height: 2rem;
 `;
 
-const ExperienceEntry: React.FC<Properties> = function ({
+const ExperienceEntry = function ({
     jobTitle,
     company,
     startDate,

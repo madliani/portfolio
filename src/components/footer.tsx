@@ -1,4 +1,4 @@
-const Footer: React.FC = function () {
+const Footer = function () {
     return (
         <div className="Footer">
             <div className="col-12 text-center copyright mt-5">

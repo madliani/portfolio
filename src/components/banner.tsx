@@ -32,7 +32,7 @@ const Content = styled.div`
     font-size: 75px;
 `;
 
-const Banner: React.FC = function () {
+const Banner = function () {
     return (
         <Container>
             <Jumbotron className="jumbotron jumbotron-fluid">

@@ -49,15 +49,15 @@ const TogglerIcon = styled.span`
     background-image: url("../../assets/icons/toggler-icon.svg");
 `;
 
-const Navbar: React.FC = function () {
+const Navbar = function () {
     const [menu, setAsOpen] = useState<boolean>(false);
 
     // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
-    const toggleNav = (): void => {
+    const toggleNav = () => {
         setAsOpen(!menu);
     };
 
-    const show: string = menu ? "show" : "";
+    const show = menu ? "show" : "";
 
     return (
         <div>

@@ -23,7 +23,7 @@ const DegreeDates = styled.h6`
     font-weight: 500;
 `;
 
-const EducationEntry: React.FC<Properties> = function ({
+const EducationEntry = function ({
     schoolName,
     degree,
     startDate,

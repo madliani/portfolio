@@ -26,7 +26,7 @@ const Image = styled.img`
     border-radius: 1.25rem;
 `;
 
-const Info: React.FC = function () {
+const Info = function () {
     return (
         <div className="Info">
             <div className="container">

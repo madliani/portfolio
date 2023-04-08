@@ -1,6 +1,6 @@
 import EducationEntry from "./educationEntry";
 
-const Education: React.FC = function () {
+const Education = function () {
     return (
         <div className="Education">
             <div className="container my-5">
