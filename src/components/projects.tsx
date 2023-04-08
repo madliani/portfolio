@@ -5,7 +5,6 @@ const Projects: React.FC = () => {
     return (
         <div>
             <div className="container">
-                {/* Row 1 */}
                 <div className="row">
                     <div className="col-12">
                         <h1 className="section-title">
@@ -14,9 +13,7 @@ const Projects: React.FC = () => {
                         </h1>
                     </div>
                 </div>
-                {/* Row 2 */}
                 <div className="row text-center">
-                    {/* Project 1 */}
                     <ProjectItem
                         imgSrc={PortfolioHomepage}
                         imgAlt="Portfolio homepage"
@@ -25,7 +22,6 @@ const Projects: React.FC = () => {
                         viewCode="https://github.com/crystallographer/portfolio"
                         viewSite="https://crystalographer.github.io"
                     />
-                    {/* Project 2 */}
                     <ProjectItem
                         imgSrc="https://raw.githubusercontent.com/crystallographer/reactify/main/assets/images/reactify-homepage.png"
                         imgAlt="Reactify homepage"

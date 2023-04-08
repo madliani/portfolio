@@ -78,17 +78,14 @@ const Navbar: React.FC = () => {
                         id="navbarMobile"
                     >
                         <Nav id="menu-primary" className="navbar-nav ms-auto">
-                            {/* Home */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
                                 <Link to="/">Home</Link>
                             </li>
-                            {/* About */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
                                 <Link to="/about">About</Link>
                             </li>
-                            {/* Portfolio */}
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
                                 <Link to="/portfolio">Portfolio</Link>

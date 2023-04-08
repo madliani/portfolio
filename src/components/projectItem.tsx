@@ -128,7 +128,6 @@ const ProjectItem: React.FC<Properties> = ({
 
     return (
         <>
-            {/* Project */}
             <div className="col-lg-4 col-md-6">
                 {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
                 <Item className="mx-auto" onClick={toggle}>
@@ -144,8 +143,6 @@ const ProjectItem: React.FC<Properties> = ({
                     <p className="project-title">{title}</p>
                 </Item>
             </div>
-
-            {/* Modal */}
             <ModalWrapper
                 size="lg"
                 isOpen={modal}
@@ -166,19 +163,15 @@ const ProjectItem: React.FC<Properties> = ({
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8">
-                                {/* Portfolio Modal - Title */}
                                 <ModalTitle className="text-uppercase mb-3">
                                     {title}
                                 </ModalTitle>
-                                {/* Portfolio Modal - Image */}
                                 <ModalImg
                                     className="img-fluid mb-3"
                                     src={imgSrc}
                                     alt={imgAlt}
                                 />
-                                {/* Portfolio Modal - Text */}
                                 <p>{projectDescription}</p>
-                                {/* Modal Links */}
                                 <ModalLinks className="text-center">
                                     {viewSite && (
                                         <div>

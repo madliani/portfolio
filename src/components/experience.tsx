@@ -4,7 +4,6 @@ const Experience: React.FC = () => {
     return (
         <div className="Experience">
             <div className="container mt-5">
-                {/* Row 1 */}
                 <div className="row">
                     <div className="col-12">
                         <h1 className="section-title text-center">
@@ -12,7 +11,6 @@ const Experience: React.FC = () => {
                         </h1>
                     </div>
                 </div>
-                {/* Row 2 */}
                 <div className="row text-start">
                     <ExperienceEntry
                         jobTitle="Front-end Developer"

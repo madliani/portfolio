@@ -30,7 +30,6 @@ const Info: React.FC = () => {
     return (
         <div className="Info">
             <div className="container">
-                {/* Row 1 */}
                 <div className="row">
                     <div className="col-12">
                         <h1 className="section-title">
@@ -38,7 +37,6 @@ const Info: React.FC = () => {
                         </h1>
                     </div>
                 </div>
-                {/* Row 2 */}
                 <div className="row text-start">
                     <div className="col-md-6 about-section">
                         <AboutText>

@@ -33,7 +33,6 @@ const Socials: React.FC = () => {
         <div>
             <div className="col-sm-12 text-center">
                 <ul>
-                    {/* LinkedIn */}
                     <InlineItem>
                         <a
                             href="https://linkedin.com/in/rakhman-abdurakhmanov-976b4b253"
@@ -43,7 +42,6 @@ const Socials: React.FC = () => {
                             <FontAwesomeIcon icon={faLinkedinIn} fixedWidth />
                         </a>
                     </InlineItem>
-                    {/* GitHub */}
                     <InlineItem>
                         <a
                             href="https://github.com/crystallographer"
@@ -53,7 +51,6 @@ const Socials: React.FC = () => {
                             <FontAwesomeIcon icon={faGithub} fixedWidth />
                         </a>
                     </InlineItem>
-                    {/* Email */}
                     <InlineItem>
                         <a
                             href="mailto:r0475582@proton.me"
