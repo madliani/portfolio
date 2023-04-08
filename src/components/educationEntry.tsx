@@ -23,14 +23,14 @@ const DegreeDates = styled.h6`
     font-weight: 500;
 `;
 
-const EducationEntry: React.FC<Properties> = ({
+const EducationEntry: React.FC<Properties> = function ({
     schoolName,
     degree,
     startDate,
     endDate,
     description,
     className
-}: Properties) => {
+}: Properties) {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>
             <Title className="mb-1 alt-green">{schoolName}</Title>

@@ -34,7 +34,7 @@ const Description = styled.p`
     line-height: 2rem;
 `;
 
-const ExperienceEntry: React.FC<Properties> = ({
+const ExperienceEntry: React.FC<Properties> = function ({
     jobTitle,
     company,
     startDate,
@@ -42,7 +42,7 @@ const ExperienceEntry: React.FC<Properties> = ({
     location,
     jobDescription,
     className
-}: Properties) => {
+}: Properties) {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>
             <Title className="mb-1 alt-green">{jobTitle}</Title>

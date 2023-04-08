@@ -1,7 +1,7 @@
 import PortfolioHomepage from "../../assets/images/portfolio-homepage.png";
 import ProjectItem from "./projectItem";
 
-const Projects: React.FC = () => {
+const Projects: React.FC = function () {
     return (
         <div>
             <div className="container">

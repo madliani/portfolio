@@ -1,6 +1,6 @@
 import ExperienceEntry from "./experienceEntry";
 
-const Experience: React.FC = () => {
+const Experience: React.FC = function () {
     return (
         <div className="Experience">
             <div className="container mt-5">

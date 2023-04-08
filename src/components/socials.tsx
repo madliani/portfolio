@@ -28,7 +28,7 @@ const InlineItem = styled.li`
     }
 `;
 
-const Socials: React.FC = () => {
+const Socials: React.FC = function () {
     return (
         <div>
             <div className="col-sm-12 text-center">
