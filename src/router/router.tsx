@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouteObject } from "react-router-dom";
 
-import { ErrorPage } from "../pages/404";
-import { About } from "../pages/about";
-import { Home } from "../pages/home";
-import { Portfolio } from "../pages/portfolio";
+import { About } from "../pages/About";
+import { ErrorPage } from "../pages/ErrorPage";
+import { Home } from "../pages/Home";
+import { Portfolio } from "../pages/Portfolio";
 
 const ROUTES: RouteObject[] = [
     {

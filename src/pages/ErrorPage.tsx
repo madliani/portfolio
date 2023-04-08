@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import { SEO } from "../components/seo";
-import { Layout } from "../layouts/layout";
+import { SEO } from "../components/SEO";
+import { Layout } from "../layouts/Layout";
 
 const Jumbotron = styled.div`
     position: absolute;

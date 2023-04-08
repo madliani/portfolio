@@ -1,5 +1,5 @@
 import PortfolioHomepage from "../../assets/images/portfolio-homepage.png";
-import { ProjectItem } from "./projectItem";
+import { ProjectItem } from "./ProjectItem";
 
 export const Projects = function () {
     return (

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import styled from "styled-components";
 
-import { ProjectItemModal } from "./projectItemModal";
+import { ProjectItemModal } from "./ProjectItemModal";
 
 type Properties = {
     title: string;

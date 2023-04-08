@@ -1,8 +1,8 @@
-import { Education } from "../components/education";
-import { Experience } from "../components/experience";
-import { Info } from "../components/info";
-import { SEO } from "../components/seo";
-import { Layout } from "../layouts/layout";
+import { Education } from "../components/Education";
+import { Experience } from "../components/Experience";
+import { Info } from "../components/Info";
+import { SEO } from "../components/SEO";
+import { Layout } from "../layouts/Layout";
 
 export const About = function () {
     return (

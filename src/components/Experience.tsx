@@ -1,4 +1,4 @@
-import { ExperienceEntry } from "./experienceEntry";
+import { ExperienceEntry } from "./ExperienceEntry";
 
 export const Experience = function () {
     return (

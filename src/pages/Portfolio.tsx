@@ -1,6 +1,6 @@
-import { Projects } from "../components/projects";
-import { SEO } from "../components/seo";
-import { Layout } from "../layouts/layout";
+import { Projects } from "../components/Projects";
+import { SEO } from "../components/SEO";
+import { Layout } from "../layouts/Layout";
 
 export const Portfolio = function () {
     return (

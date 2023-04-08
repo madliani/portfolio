@@ -1,4 +1,4 @@
-import { EducationEntry } from "./educationEntry";
+import { EducationEntry } from "./EducationEntry";
 
 export const Education = function () {
     return (

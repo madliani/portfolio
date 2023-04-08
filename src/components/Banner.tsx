@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import styled from "styled-components";
 
-import { Socials } from "./socials";
+import { Socials } from "./Socials";
 
 const words = [
     "I'm front-end developer",

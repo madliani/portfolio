@@ -1,6 +1,6 @@
-import { Banner } from "../components/banner";
-import { SEO } from "../components/seo";
-import { Layout } from "../layouts/layout";
+import { Banner } from "../components/Banner";
+import { SEO } from "../components/SEO";
+import { Layout } from "../layouts/Layout";
 
 export const Home = function () {
     return (
