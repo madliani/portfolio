@@ -22,13 +22,6 @@ touch with me by sending mail.
 
 ![Homepage](./assets/images/portfolio-homepage.png)
 
-## Built With
-
--   Bootstrap
--   React
--   styled-components
--   TypeScript
-
 ## Authors
 
 Rakhman Abdurakhmanov - [Portfolio](https://crystallographer.github.io) |
@@ -36,3 +29,8 @@ Rakhman Abdurakhmanov - [Portfolio](https://crystallographer.github.io) |
 
 Based on [Portfolio](https://github.com/ksentak/keaton-portfolio) by
 [Keaton Sentak](https://keatonsentak.com).
+
+## License
+
+The MIT License - [Open Source Initiative](https://opensource.org/license/mit) |
+[Free Software Directory](https://directory.fsf.org/wiki/License:Expat).
