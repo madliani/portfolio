@@ -8,19 +8,19 @@ const InlineItem = styled.li`
     margin-top: 10px;
 
     a {
-        height: 50px;
         width: 50px;
-        background-color: var(--dark);
-        color: var(--light);
-        font-size: 20px;
+        height: 50px;
         padding: 12px;
-        border: 2px solid var(--greenAlt);
+        font-size: 20px;
+        color: var(--light);
+        background-color: var(--dark);
+        border: 2px solid var(--green-alt);
         border-radius: 1.25rem;
     }
 
     a:hover {
+        color: var(--green-alt);
         background-color: var(--dark);
-        color: var(--greenAlt);
     }
 
     &:not(:last-child) {

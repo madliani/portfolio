@@ -7,22 +7,22 @@ const AboutText = styled.div`
 `;
 
 const ResumeButton = styled.button`
-    background-color: var(--dark);
-    color: var(--light) !important;
+    margin: 2rem 0 1rem;
     padding: 18px 40px;
-    border: 2px solid var(--greenAlt);
+    color: var(--light) !important;
+    background-color: var(--dark);
+    border: 2px solid var(--green-alt);
     border-radius: 1.25rem;
-    margin: 2rem 0 1rem 0;
 
     &:hover {
+        color: var(--green-alt) !important;
         background-color: var(--dark);
-        color: var(--greenAlt) !important;
     }
 `;
 
 const Image = styled.img`
-    height: 350px;
     width: 300px;
+    height: 350px;
     border-radius: 1.25rem;
 `;
 

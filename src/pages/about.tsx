@@ -4,7 +4,7 @@ import Info from "../components/info";
 import SEO from "../components/seo";
 import Layout from "../layouts/layout";
 
-const About = () => {
+const About = function () {
     return (
         <Layout>
             <SEO title="About" />

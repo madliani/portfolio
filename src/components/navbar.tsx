@@ -8,16 +8,16 @@ const NavbarWrapper = styled.nav`
 
 const Nav = styled.ul`
     a {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
         margin: 0 10px;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+        font-size: 18px;
         font-weight: 500;
         color: var(--light);
-        font-size: 18px;
     }
 
     a:hover {
-        color: var(--greenAlt);
+        color: var(--green-alt);
         text-decoration: underline;
     }
 
@@ -25,7 +25,7 @@ const Nav = styled.ul`
         color: var(--light);
     }
 
-    @media (max-width: 768px) {
+    @media (width <= 768px) {
         li {
             padding-bottom: 7px;
         }
@@ -33,9 +33,9 @@ const Nav = styled.ul`
 `;
 
 const Toggler = styled.button`
-    background: transparent !important;
-    padding-left: 0 !important;
     padding-right: 0 !important;
+    padding-left: 0 !important;
+    background: transparent !important;
 
     &:focus {
         box-shadow: none;
@@ -43,10 +43,10 @@ const Toggler = styled.button`
 `;
 
 const TogglerIcon = styled.span`
-    background-image: url("../../assets/icons/toggler-icon.svg");
+    margin-right: 30px;
     font-size: 24px;
     text-align: right;
-    margin-right: 30px;
+    background-image: url("../../assets/icons/toggler-icon.svg");
 `;
 
 const Navbar: React.FC = () => {

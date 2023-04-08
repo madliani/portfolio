@@ -12,7 +12,7 @@ type Properties = {
 };
 
 const Container = styled.div`
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0;
 `;
 
 const Title = styled.h3`
@@ -29,7 +29,7 @@ const DatesLocation = styled.h6`
 `;
 
 const Description = styled.p`
-    margin: 0.2rem 0 0.2rem 0;
+    margin: 0.2rem 0;
     font-size: 1rem;
     line-height: 2rem;
 `;

@@ -11,7 +11,7 @@ type Properties = {
 };
 
 const Container = styled.div`
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0;
 `;
 
 const Title = styled.h3`

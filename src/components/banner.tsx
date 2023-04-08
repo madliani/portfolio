@@ -1,6 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
-
 import styled from "styled-components";
+
 import Socials from "./socials";
 
 const words = [
@@ -15,15 +15,15 @@ const Container = styled.div`
 `;
 
 const Jumbotron = styled.div`
-    background: none;
     position: absolute;
-    text-align: center;
-    padding: 2rem 1rem;
     top: 20vh;
     width: 100%;
     margin: 0;
+    padding: 2rem 1rem;
+    text-align: center;
+    background: none;
 
-    @media (max-width: 768px) {
+    @media (width <= 768px) {
         top: 12vh;
     }
 `;

@@ -19,24 +19,24 @@ type Properties = {
 };
 
 const Item = styled.div`
-    margin-bottom: 30px;
-    display: block;
     position: relative;
+    display: block;
+    margin-bottom: 30px;
 `;
 
 const ItemCaption = styled.div`
-    position: absolute;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    position: absolute;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(0 0 0 / 20%);
     border-radius: 6px;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
         opacity: 1;
     }
 
-    @media (max-width: 768px) {
+    @media (width <= 768px) {
         &:hover {
             opacity: 0;
         }
@@ -44,13 +44,13 @@ const ItemCaption = styled.div`
 `;
 
 const Img = styled.img`
-    height: 200px;
     width: 350px;
+    height: 200px;
     border-radius: 6px;
 
-    @media (max-width: 768px) {
-        height: 200px;
+    @media (width <= 768px) {
         width: 350px;
+        height: 200px;
     }
 `;
 
@@ -64,14 +64,14 @@ const ModalWrapper = styled(({ children, ...properties }) => (
     .close {
         position: absolute;
         z-index: 1;
-        right: 24px;
         top: 12px;
+        right: 24px;
         font-size: 26px;
         line-height: 40px;
         color: var(--light);
         opacity: 1;
-        border: none;
         background-color: var(--dark);
+        border: none;
     }
 `;
 
@@ -85,8 +85,8 @@ const ModalImg = styled.img`
 
 const ModalLinks = styled.div`
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 `;
 
 const ModalIcon = styled(({ children, ...properties }) => (
@@ -97,20 +97,20 @@ const ModalIcon = styled(({ children, ...properties }) => (
 `;
 
 const ModalButton = styled.button`
-    background-color: var(--dark);
-    color: var(--light) !important;
-    padding: 10px 20px;
-    border: 2px solid var(--greenAlt);
-    border-radius: 1.25rem;
     margin: 10px;
+    padding: 10px 20px;
+    color: var(--light) !important;
+    background-color: var(--dark);
+    border: 2px solid var(--green-alt);
+    border-radius: 1.25rem;
 
     &:hover {
+        color: var(--green-alt) !important;
         background-color: var(--dark);
-        color: var(--greenAlt) !important;
     }
 
     &:hover ${ModalIcon} {
-        color: var(--greenAlt) !important;
+        color: var(--green-alt) !important;
     }
 `;
 

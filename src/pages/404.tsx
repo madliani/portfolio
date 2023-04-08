@@ -1,24 +1,24 @@
 import { Link } from "react-router-dom";
-
 import styled from "styled-components";
+
 import SEO from "../components/seo";
 import Layout from "../layouts/layout";
 
 const Jumbotron = styled.div`
-    background: none;
     position: absolute;
-    text-align: center;
-    padding: 2rem 1rem;
     top: 20vh;
     width: 100%;
     margin: 0;
+    padding: 2rem 1rem;
+    text-align: center;
+    background: none;
 
-    @media (max-width: 768px) {
+    @media (width <= 768px) {
         top: 12vh;
     }
 `;
 
-const ErrorPage = () => {
+const ErrorPage = function () {
     return (
         <Layout>
             <SEO title="404: Not found" />
