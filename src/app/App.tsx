@@ -1,15 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import { RouterProvider } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
-
 import { router } from "../router/router";
 
 const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: "JetBrains Mono";
-        font-style: normal;
         font-weight: 400;
+        font-style: normal;
         font-display: swap;
         src: url("../../assets/fonts/JetBrains Mono/JetBrainsMono-Regular.woff2") format("woff2");
     }

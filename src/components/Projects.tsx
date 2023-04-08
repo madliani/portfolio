@@ -15,16 +15,16 @@ export const Projects = function () {
                 </div>
                 <div className="row text-center">
                     <ProjectItem
-                        imgSrc={PortfolioHomepage}
                         imgAlt="Portfolio homepage"
+                        imgSrc={PortfolioHomepage}
                         projectDescription="My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript."
                         title="Portfolio"
                         viewCode="https://github.com/crystallographer/portfolio"
                         viewSite="https://crystalographer.github.io"
                     />
                     <ProjectItem
-                        imgSrc="https://raw.githubusercontent.com/crystallographer/reactify/main/assets/images/reactify-homepage.png"
                         imgAlt="Reactify homepage"
+                        imgSrc="https://raw.githubusercontent.com/crystallographer/reactify/main/assets/images/reactify-homepage.png"
                         projectDescription="The React Starter Kit."
                         title="Reactify"
                         viewCode="https://github.com/crystallographer/reactify"

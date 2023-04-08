@@ -2,15 +2,15 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import styled from "styled-components";
-
 import { ProjectItemModal } from "./ProjectItemModal";
 
 type Properties = {
-    title: string;
-    imgSrc: string;
     imgAlt: string;
-    viewCode: string;
+    imgSrc: string;
     projectDescription: string;
+    title: string;
+    viewCode: string;
+
     viewSite?: string;
 };
 
@@ -51,12 +51,12 @@ const Img = styled.img`
 `;
 
 export const ProjectItem = function ({
-    title,
-    imgSrc,
     imgAlt,
+    imgSrc,
+    projectDescription,
+    title,
     viewCode,
-    viewSite,
-    projectDescription
+    viewSite
 }: Properties) {
     const [modal, setModal] = useState(false);
 
@@ -77,19 +77,19 @@ export const ProjectItem = function ({
                             ></FontAwesomeIcon>
                         </div>
                     </ItemCaption>
-                    <Img className="img-fluid" src={imgSrc} alt={imgAlt} />
+                    <Img alt={imgAlt} className="img-fluid" src={imgSrc} />
                     <p className="project-title">{title}</p>
                 </Item>
             </div>
             <ProjectItemModal
-                title={title}
-                imgSrc={imgSrc}
                 imgAlt={imgAlt}
+                imgSrc={imgSrc}
+                modal={modal}
+                projectDescription={projectDescription}
+                title={title}
+                toggle={toggle}
                 viewCode={viewCode}
                 viewSite={viewSite}
-                projectDescription={projectDescription}
-                modal={modal}
-                toggle={toggle}
             />
         </>
     );

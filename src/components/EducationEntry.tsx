@@ -2,12 +2,13 @@ import { ReactNode } from "react";
 import styled from "styled-components";
 
 type Properties = {
-    schoolName: ReactNode;
-    degree: string;
-    startDate: string;
-    endDate: string;
-    description?: string;
     className?: string;
+    degree: string;
+    description?: string;
+    endDate: string;
+
+    schoolName: ReactNode;
+    startDate: string;
 };
 
 const Container = styled.div`
@@ -24,12 +25,12 @@ const DegreeDates = styled.h6`
 `;
 
 export const EducationEntry = function ({
-    schoolName,
+    className,
     degree,
-    startDate,
-    endDate,
     description,
-    className
+    endDate,
+    schoolName,
+    startDate
 }: Properties) {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>

@@ -1,13 +1,13 @@
 import { Helmet } from "react-helmet";
 
-type Meta = { name: string; content: string };
+type Meta = { content: string; name: string };
 
 type Properties = {
-    title: string;
-
     description?: string;
+
     lang?: string;
     meta?: Meta[];
+    title: string;
 };
 
 export const SEO = function ({
@@ -26,25 +26,25 @@ export const SEO = function ({
             htmlAttributes={htmlAttributes}
             meta={[
                 {
-                    name: "description",
-                    content: description
+                    content: description,
+                    name: "description"
                 },
                 {
-                    property: "og:description",
-                    content: description
+                    content: description,
+                    property: "og:description"
                 },
                 {
-                    name: "og:image",
                     content:
-                        "https://raw.githubusercontent.com/crystallographer/portfolio/main/src/assets/images/portfolio-homepage.png"
+                        "https://raw.githubusercontent.com/crystallographer/portfolio/main/src/assets/images/portfolio-homepage.png",
+                    name: "og:image"
                 },
                 {
-                    name: "og:site_name",
-                    content: "crystallographer.github.io"
+                    content: "crystallographer.github.io",
+                    name: "og:site_name"
                 },
                 {
-                    property: "og:title",
-                    content: title
+                    content: title,
+                    property: "og:title"
                 },
                 ...meta
             ]}

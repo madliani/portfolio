@@ -11,6 +11,9 @@ export const Education = function () {
                 </div>
                 <div className="row text-start">
                     <EducationEntry
+                        className="mb-3"
+                        degree="Master's degree, Mathematics"
+                        endDate="2020"
                         schoolName={
                             <a
                                 href="https://petrsu.ru/en"
@@ -20,12 +23,11 @@ export const Education = function () {
                                 Petrozavodsk State University (PetrSU)
                             </a>
                         }
-                        degree="Master's degree, Mathematics"
                         startDate="2018"
-                        endDate="2020"
-                        className="mb-3"
                     />
                     <EducationEntry
+                        degree="Bachelor's degree, Electrical and Electronics Engineering"
+                        endDate="2018"
                         schoolName={
                             <a
                                 href="https://petrsu.ru/en"
@@ -35,9 +37,7 @@ export const Education = function () {
                                 Petrozavodsk State University (PetrSU)
                             </a>
                         }
-                        degree="Bachelor's degree, Electrical and Electronics Engineering"
                         startDate="2014"
-                        endDate="2018"
                     />
                 </div>
             </div>

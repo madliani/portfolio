@@ -13,7 +13,7 @@ export const Experience = function () {
                 </div>
                 <div className="row text-start">
                     <ExperienceEntry
-                        jobTitle="Front-end Developer"
+                        className="mb-3"
                         company={
                             <a
                                 href="https://interso.ru"
@@ -23,9 +23,7 @@ export const Experience = function () {
                                 inter://so
                             </a>
                         }
-                        startDate="Feb 2022"
                         endDate="Sep 2022"
-                        location="Petrozavodsk, Karelia, Russia"
                         jobDescription={
                             <span>
                                 At{" "}
@@ -42,10 +40,11 @@ export const Experience = function () {
                                 architecture and technologies used.
                             </span>
                         }
-                        className="mb-3"
+                        jobTitle="Front-end Developer"
+                        location="Petrozavodsk, Karelia, Russia"
+                        startDate="Feb 2022"
                     />
                     <ExperienceEntry
-                        jobTitle="Front-end Developer"
                         company={
                             <a
                                 href="https://axmit.com"
@@ -55,9 +54,7 @@ export const Experience = function () {
                                 axmit
                             </a>
                         }
-                        startDate="Jun 2019"
                         endDate="Oct 2020"
-                        location="Petrozavodsk, Karelia, Russia"
                         jobDescription={
                             <span>
                                 In{" "}
@@ -88,6 +85,9 @@ export const Experience = function () {
                                 mean fixing bugs and adding new features.
                             </span>
                         }
+                        jobTitle="Front-end Developer"
+                        location="Petrozavodsk, Karelia, Russia"
+                        startDate="Jun 2019"
                     />
                 </div>
             </div>

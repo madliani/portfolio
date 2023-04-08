@@ -1,6 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
 import styled from "styled-components";
-
 import { Socials } from "./Socials";
 
 const words = [

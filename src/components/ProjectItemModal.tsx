@@ -8,13 +8,14 @@ import { Modal } from "reactstrap";
 import styled from "styled-components";
 
 type Properties = {
-    title: string;
-    imgSrc: string;
     imgAlt: string;
-    viewCode: string;
-    projectDescription: string;
+    imgSrc: string;
     modal: boolean;
+    projectDescription: string;
+    title: string;
     toggle: () => void;
+    viewCode: string;
+
     viewSite?: string;
 };
 
@@ -79,22 +80,22 @@ const Button = styled.button`
 `;
 
 export const ProjectItemModal = function ({
-    title,
-    imgSrc,
     imgAlt,
-    viewCode,
-    viewSite,
+    imgSrc,
     modal,
+    projectDescription,
+    title,
     toggle,
-    projectDescription
+    viewCode,
+    viewSite
 }: Properties) {
     return (
-        <ModalWrapper size="lg" isOpen={modal} toggle={toggle} role="dialog">
+        <ModalWrapper isOpen={modal} role="dialog" size="lg" toggle={toggle}>
             <button
+                aria-label="Close"
+                className="close"
                 onClick={toggle}
                 type="button"
-                className="close"
-                aria-label="Close"
             >
                 <span aria-hidden="true">
                     <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
@@ -108,9 +109,9 @@ export const ProjectItemModal = function ({
                                 {title}
                             </Title>
                             <Img
+                                alt={imgAlt}
                                 className="img-fluid mb-3"
                                 src={imgSrc}
-                                alt={imgAlt}
                             />
                             <p>{projectDescription}</p>
                             <Links className="text-center">

@@ -63,12 +63,12 @@ export const Header = function () {
             <Navbar className="navbar navbar-expand-sm">
                 <div className="container">
                     <Toggler
-                        className="navbar-toggler ms-auto"
-                        type="button"
                         aria-controls="navbarMobile"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        className="navbar-toggler ms-auto"
                         onClick={toggleNav}
+                        type="button"
                     >
                         <TogglerIcon className="navbar-toggler-icon" />
                     </Toggler>
@@ -76,7 +76,7 @@ export const Header = function () {
                         className={"collapse navbar-collapse " + show}
                         id="navbarMobile"
                     >
-                        <Nav id="menu-primary" className="navbar-nav ms-auto">
+                        <Nav className="navbar-nav ms-auto" id="menu-primary">
                             {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
                             <li onClick={toggleNav}>
                                 <Link to="/">Home</Link>

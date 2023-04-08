@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-
 import { SEO } from "../components/SEO";
 import { Layout } from "../layouts/Layout";
 

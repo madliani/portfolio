@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouteObject } from "react-router-dom";
-
 import { About } from "../pages/About";
 import { ErrorPage } from "../pages/ErrorPage";
 import { Home } from "../pages/Home";
@@ -7,20 +6,20 @@ import { Portfolio } from "../pages/Portfolio";
 
 const routes: RouteObject[] = [
     {
-        path: "/",
-        element: <Home />
+        element: <Home />,
+        path: "/"
     },
     {
-        path: "/404",
-        element: <ErrorPage />
+        element: <ErrorPage />,
+        path: "/404"
     },
     {
-        path: "/about",
-        element: <About />
+        element: <About />,
+        path: "/about"
     },
     {
-        path: "/portfolio",
-        element: <Portfolio />
+        element: <Portfolio />,
+        path: "/portfolio"
     }
 ];
 

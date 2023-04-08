@@ -2,13 +2,14 @@ import { ReactNode } from "react";
 import styled from "styled-components";
 
 type Properties = {
-    jobTitle: string;
-    company: ReactNode;
-    startDate: string;
-    endDate: string;
-    location: string;
-    jobDescription?: ReactNode;
     className?: string;
+    company: ReactNode;
+    endDate: string;
+    jobDescription?: ReactNode;
+    jobTitle: string;
+
+    location: string;
+    startDate: string;
 };
 
 const Container = styled.div`
@@ -35,13 +36,13 @@ const Description = styled.p`
 `;
 
 export const ExperienceEntry = function ({
-    jobTitle,
+    className,
     company,
-    startDate,
     endDate,
-    location,
     jobDescription,
-    className
+    jobTitle,
+    location,
+    startDate
 }: Properties) {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>

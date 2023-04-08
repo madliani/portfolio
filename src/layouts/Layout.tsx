@@ -2,7 +2,6 @@ import { ReactNode, useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine, ISourceOptions } from "tsparticles-engine";
-
 import { Header } from "../components/Header";
 
 type Properties = {
@@ -10,6 +9,7 @@ type Properties = {
 };
 
 const options: ISourceOptions = {
+    detectRetina: true,
     fpsLimit: 120,
     interactivity: {
         events: {
@@ -34,6 +34,9 @@ const options: ISourceOptions = {
         }
     },
     particles: {
+        collisions: {
+            enable: true
+        },
         color: {
             value: "#ffffff"
         },
@@ -44,9 +47,6 @@ const options: ISourceOptions = {
             opacity: 0.5,
             width: 1
         },
-        collisions: {
-            enable: true
-        },
         move: {
             direction: "none",
             enable: true,
@@ -54,13 +54,13 @@ const options: ISourceOptions = {
                 default: "bounce"
             },
             random: false,
-            speed: 6,
+            speed: 3,
             straight: false
         },
         number: {
             density: {
-                enable: true,
-                area: 800
+                area: 800,
+                enable: true
             },
             value: 80
         },
@@ -71,10 +71,9 @@ const options: ISourceOptions = {
             type: "circle"
         },
         size: {
-            value: { min: 1, max: 5 }
+            value: { max: 5, min: 1 }
         }
-    },
-    detectRetina: true
+    }
 };
 
 export const Layout = ({ children }: Properties) => {

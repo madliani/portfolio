@@ -39,7 +39,7 @@ export const Socials = function () {
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faLinkedinIn} fixedWidth />
+                            <FontAwesomeIcon fixedWidth icon={faLinkedinIn} />
                         </a>
                     </InlineItem>
                     <InlineItem>
@@ -48,7 +48,7 @@ export const Socials = function () {
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faGithub} fixedWidth />
+                            <FontAwesomeIcon fixedWidth icon={faGithub} />
                         </a>
                     </InlineItem>
                     <InlineItem>
@@ -57,7 +57,7 @@ export const Socials = function () {
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faEnvelope} fixedWidth />
+                            <FontAwesomeIcon fixedWidth icon={faEnvelope} />
                         </a>
                     </InlineItem>
                 </ul>

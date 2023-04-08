@@ -107,8 +107,8 @@ export const Info = function () {
                     {PROFILE_IMAGE && (
                         <div className="col-md-6 mb-3 d-flex justify-content-center">
                             <Image
-                                src={`data:image/png;base64,${PROFILE_IMAGE}`}
                                 alt="Profile"
+                                src={`data:image/png;base64,${PROFILE_IMAGE}`}
                             />
                         </div>
                     )}
