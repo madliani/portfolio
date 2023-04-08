@@ -56,8 +56,8 @@ export const ProjectItem = function ({
         border-radius: 6px;
 
         @media (width <= 768px) {
-            width: 350px;
-            height: 200px;
+            width: ${imgWidth ?? "350px"};
+            height: ${imgHeight ?? "200px"};
         }
     `;
 
