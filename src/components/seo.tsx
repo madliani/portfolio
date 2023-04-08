@@ -14,13 +14,13 @@ const SEO = function ({
     description = "My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript.",
     lang = "en",
     meta = [],
-    title = "Rakhman A."
+    title
 }: Properties) {
     // eslint-disable-next-line react-perf/jsx-no-new-object-as-prop
     const htmlAttributes = {
         lang
     };
-    const titleTemplates = `${title} | %s`;
+    const titleTemplates = "Rakhman A. | %s";
 
     return (
         <Helmet

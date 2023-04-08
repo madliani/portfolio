@@ -6,14 +6,16 @@ import Layout from "../layouts/layout";
 
 const About = function () {
     return (
-        <Layout>
+        <>
             <SEO title="About" />
-            <div>
-                <Info />
-                <Experience />
-                <Education />
-            </div>
-        </Layout>
+            <Layout>
+                <div>
+                    <Info />
+                    <Experience />
+                    <Education />
+                </div>
+            </Layout>
+        </>
     );
 };
 

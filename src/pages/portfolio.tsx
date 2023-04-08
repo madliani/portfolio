@@ -4,12 +4,14 @@ import Layout from "../layouts/layout";
 
 const Portfolio = function () {
     return (
-        <Layout>
+        <>
             <SEO title="Portfolio" />
-            <div>
-                <Projects />
-            </div>
-        </Layout>
+            <Layout>
+                <div>
+                    <Projects />
+                </div>
+            </Layout>
+        </>
     );
 };
 
