@@ -1,7 +1,7 @@
 import PortfolioHomepage from "../../assets/images/portfolio-homepage.png";
-import ProjectItem from "./projectItem";
+import { ProjectItem } from "./projectItem";
 
-const Projects = function () {
+export const Projects = function () {
     return (
         <div>
             <div className="container">
@@ -34,5 +34,3 @@ const Projects = function () {
         </div>
     );
 };
-
-export default Projects;

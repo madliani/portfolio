@@ -26,7 +26,7 @@ const Image = styled.img`
     border-radius: 1.25rem;
 `;
 
-const Info = function () {
+export const Info = function () {
     return (
         <div className="Info">
             <div className="container">
@@ -117,5 +117,3 @@ const Info = function () {
         </div>
     );
 };
-
-export default Info;

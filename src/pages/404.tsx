@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import SEO from "../components/seo";
-import Layout from "../layouts/layout";
+import { SEO } from "../components/seo";
+import { Layout } from "../layouts/layout";
 
 const Jumbotron = styled.div`
     position: absolute;
@@ -18,7 +18,7 @@ const Jumbotron = styled.div`
     }
 `;
 
-const ErrorPage = function () {
+export const ErrorPage = function () {
     return (
         <>
             <SEO title="404: Not Found" />
@@ -42,5 +42,3 @@ const ErrorPage = function () {
         </>
     );
 };
-
-export default ErrorPage;

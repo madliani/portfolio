@@ -34,7 +34,7 @@ const Description = styled.p`
     line-height: 2rem;
 `;
 
-const ExperienceEntry = function ({
+export const ExperienceEntry = function ({
     jobTitle,
     company,
     startDate,
@@ -54,5 +54,3 @@ const ExperienceEntry = function ({
         </Container>
     );
 };
-
-export default ExperienceEntry;

@@ -1,6 +1,6 @@
-import ExperienceEntry from "./experienceEntry";
+import { ExperienceEntry } from "./experienceEntry";
 
-const Experience = function () {
+export const Experience = function () {
     return (
         <div className="Experience">
             <div className="container mt-5">
@@ -94,5 +94,3 @@ const Experience = function () {
         </div>
     );
 };
-
-export default Experience;

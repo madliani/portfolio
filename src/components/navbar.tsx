@@ -49,7 +49,7 @@ const TogglerIcon = styled.span`
     background-image: url("../../assets/icons/toggler-icon.svg");
 `;
 
-const Navbar = function () {
+export const Navbar = function () {
     const [menu, setAsOpen] = useState<boolean>(false);
 
     // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
@@ -97,5 +97,3 @@ const Navbar = function () {
         </div>
     );
 };
-
-export default Navbar;

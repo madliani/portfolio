@@ -28,7 +28,7 @@ const InlineItem = styled.li`
     }
 `;
 
-const Socials = function () {
+export const Socials = function () {
     return (
         <div>
             <div className="col-sm-12 text-center">
@@ -65,5 +65,3 @@ const Socials = function () {
         </div>
     );
 };
-
-export default Socials;
