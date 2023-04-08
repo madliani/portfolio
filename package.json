@@ -130,9 +130,9 @@
         "postinstall": "husky install",
         "pre-commit": "lint-staged",
         "prepare": "husky install",
-        "serve": "parcel serve ./src/index.html --open --port 8080",
+        "serve": "parcel serve './src/index.html' --open --port 8080",
         "test": "jest",
-        "watch": "parcel watch ./src/index.html"
+        "watch": "parcel watch './src/index.html'"
     },
     "version": "1.0.0"
 }
