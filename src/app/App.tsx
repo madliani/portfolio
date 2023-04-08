@@ -6,7 +6,13 @@ import { createGlobalStyle } from "styled-components";
 import { router } from "../router/router";
 
 const GlobalStyle = createGlobalStyle`
-    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+    @font-face {
+        font-family: "JetBrains Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("../../assets/fonts/JetBrains Mono/JetBrainsMono-Regular.woff2") format("woff2");
+    }
 
     :root {
         --light: #fff;
