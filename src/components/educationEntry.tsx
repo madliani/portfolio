@@ -1,14 +1,14 @@
 import { ReactNode } from "react";
 import styled from "styled-components";
 
-interface EducationProps {
+type Properties = {
     schoolName: ReactNode;
     degree: string;
     startDate: string;
     endDate: string;
     description?: string;
     className?: string;
-}
+};
 
 const Container = styled.div`
     margin: 0.5rem 0 0.5rem 0;
@@ -23,14 +23,14 @@ const DegreeDates = styled.h6`
     font-weight: 500;
 `;
 
-const EducationEntry: React.FC<EducationProps> = ({
+const EducationEntry: React.FC<Properties> = ({
     schoolName,
     degree,
     startDate,
     endDate,
     description,
     className
-}: EducationProps) => {
+}: Properties) => {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>
             <Title className="mb-1 alt-green">{schoolName}</Title>

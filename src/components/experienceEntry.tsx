@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import styled from "styled-components";
 
-interface ExperienceProps {
+type Properties = {
     jobTitle: string;
     company: ReactNode;
     startDate: string;
@@ -9,7 +9,7 @@ interface ExperienceProps {
     location: string;
     jobDescription?: ReactNode;
     className?: string;
-}
+};
 
 const Container = styled.div`
     margin: 0.5rem 0 0.5rem 0;
@@ -34,7 +34,7 @@ const Description = styled.p`
     line-height: 2rem;
 `;
 
-const ExperienceEntry: React.FC<ExperienceProps> = ({
+const ExperienceEntry: React.FC<Properties> = ({
     jobTitle,
     company,
     startDate,
@@ -42,7 +42,7 @@ const ExperienceEntry: React.FC<ExperienceProps> = ({
     location,
     jobDescription,
     className
-}: ExperienceProps) => {
+}: Properties) => {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>
             <Title className="mb-1 alt-green">{jobTitle}</Title>

@@ -1,18 +1,22 @@
 import { Helmet } from "react-helmet";
 
-interface SEOProps {
+type Meta = { name: string; content: string };
+
+type Properties = {
+    title: string;
+
     description?: string;
     lang?: string;
-    meta?: Array<{ name: string; content: string }>;
-    title: string;
-}
+    meta?: Meta[];
+};
 
 function SEO({
     description = "My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript.",
     lang = "en",
     meta = [],
     title = "Rakhman A."
-}: SEOProps) {
+}: Properties) {
+    // eslint-disable-next-line react-perf/jsx-no-new-object-as-prop
     const htmlAttributes = {
         lang
     };
@@ -21,6 +25,7 @@ function SEO({
     return (
         <Helmet
             htmlAttributes={htmlAttributes}
+            // eslint-disable-next-line react-perf/jsx-no-new-array-as-prop
             meta={[
                 {
                     name: "description",

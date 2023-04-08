@@ -9,14 +9,14 @@ import { useState } from "react";
 import { Modal } from "reactstrap";
 import styled from "styled-components";
 
-interface Props {
+type Properties = {
     title: string;
     imgSrc: string;
     imgAlt: string;
     viewCode: string;
     projectDescription: string;
     viewSite?: string;
-}
+};
 
 const Item = styled.div`
     margin-bottom: 30px;
@@ -114,14 +114,14 @@ const ModalButton = styled.button`
     }
 `;
 
-const ProjectItem: React.FC<Props> = ({
+const ProjectItem: React.FC<Properties> = ({
     title,
     imgSrc,
     imgAlt,
     viewCode,
     viewSite,
     projectDescription
-}: Props) => {
+}: Properties) => {
     const [modal, setModal] = useState<boolean>(false);
     // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
     const toggle = (): void => setModal(!modal);

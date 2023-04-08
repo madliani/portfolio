@@ -6,11 +6,11 @@ import MouseParticles from "react-mouse-particles";
 
 import Navbar from "../components/navbar";
 
-interface LayoutProps {
+type Properties = {
     children: ReactNode;
-}
+};
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children }: Properties) => {
     return (
         <>
             {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
