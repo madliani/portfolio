@@ -6,7 +6,6 @@ type Properties = {
     degree: string;
     description?: string;
     endDate: string;
-
     schoolName: ReactNode;
     startDate: string;
 };

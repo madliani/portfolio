@@ -29,6 +29,13 @@ export const Projects = function () {
                         title="Reactify"
                         viewCode="https://github.com/crystallographer/reactify"
                     />
+                    <ProjectItem
+                        imgAlt="Emojer icon"
+                        imgSrc="https://raw.githubusercontent.com/crystallographer/emojer/master/assets/images/emoji.png"
+                        projectDescription="The Emoji Compiler."
+                        title="Emojer"
+                        viewCode="https://github.com/crystallographer/emojer"
+                    />
                 </div>
             </div>
         </div>

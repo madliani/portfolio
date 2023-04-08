@@ -7,7 +7,6 @@ type Properties = {
     endDate: string;
     jobDescription?: ReactNode;
     jobTitle: string;
-
     location: string;
     startDate: string;
 };

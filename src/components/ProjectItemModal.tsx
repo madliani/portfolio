@@ -15,7 +15,6 @@ type Properties = {
     title: string;
     toggle: () => void;
     viewCode: string;
-
     viewSite?: string;
 };
 

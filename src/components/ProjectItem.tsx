@@ -10,7 +10,6 @@ type Properties = {
     projectDescription: string;
     title: string;
     viewCode: string;
-
     viewSite?: string;
 };
 

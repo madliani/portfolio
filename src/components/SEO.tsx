@@ -4,7 +4,6 @@ type Meta = { content: string; name: string };
 
 type Properties = {
     description?: string;
-
     lang?: string;
     meta?: Meta[];
     title: string;
