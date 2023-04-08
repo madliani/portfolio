@@ -10,7 +10,7 @@ type Properties = {
     meta?: Meta[];
 };
 
-const SEO = function ({
+export const SEO = function ({
     description = "My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript.",
     lang = "en",
     meta = [],
@@ -55,5 +55,3 @@ const SEO = function ({
         />
     );
 };
-
-export default SEO;

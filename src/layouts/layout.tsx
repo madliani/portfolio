@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine, ISourceOptions } from "tsparticles-engine";
 
-import Navbar from "../components/navbar";
+import { Navbar } from "../components/navbar";
 
 type Properties = {
     children: ReactNode;
@@ -77,7 +77,7 @@ const options: ISourceOptions = {
     detectRetina: true
 };
 
-const Layout = ({ children }: Properties) => {
+export const Layout = ({ children }: Properties) => {
     const init = useCallback(async (engine: Engine) => {
         await loadFull(engine);
     }, []);
@@ -90,5 +90,3 @@ const Layout = ({ children }: Properties) => {
         </>
     );
 };
-
-export default Layout;

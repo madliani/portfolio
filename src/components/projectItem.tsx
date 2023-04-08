@@ -114,7 +114,7 @@ const ModalButton = styled.button`
     }
 `;
 
-const ProjectItem = function ({
+export const ProjectItem = function ({
     title,
     imgSrc,
     imgAlt,
@@ -212,5 +212,3 @@ const ProjectItem = function ({
         </>
     );
 };
-
-export default ProjectItem;

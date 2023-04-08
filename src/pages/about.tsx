@@ -1,10 +1,10 @@
-import Education from "../components/education";
-import Experience from "../components/experience";
-import Info from "../components/info";
-import SEO from "../components/seo";
-import Layout from "../layouts/layout";
+import { Education } from "../components/education";
+import { Experience } from "../components/experience";
+import { Info } from "../components/info";
+import { SEO } from "../components/seo";
+import { Layout } from "../layouts/layout";
 
-const About = function () {
+export const About = function () {
     return (
         <>
             <SEO title="About" />
@@ -18,5 +18,3 @@ const About = function () {
         </>
     );
 };
-
-export default About;

@@ -1,8 +1,8 @@
-import Banner from "../components/banner";
-import SEO from "../components/seo";
-import Layout from "../layouts/layout";
+import { Banner } from "../components/banner";
+import { SEO } from "../components/seo";
+import { Layout } from "../layouts/layout";
 
-const Home = function () {
+export const Home = function () {
     return (
         <>
             <SEO title="Home" />
@@ -14,5 +14,3 @@ const Home = function () {
         </>
     );
 };
-
-export default Home;

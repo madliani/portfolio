@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import styled from "styled-components";
 
-import Socials from "./socials";
+import { Socials } from "./socials";
 
 const words = [
     "I'm front-end developer",
@@ -32,7 +32,7 @@ const Content = styled.div`
     font-size: 75px;
 `;
 
-const Banner = function () {
+export const Banner = function () {
     return (
         <Container>
             <Jumbotron className="jumbotron jumbotron-fluid">
@@ -54,5 +54,3 @@ const Banner = function () {
         </Container>
     );
 };
-
-export default Banner;

@@ -23,7 +23,7 @@ const DegreeDates = styled.h6`
     font-weight: 500;
 `;
 
-const EducationEntry = function ({
+export const EducationEntry = function ({
     schoolName,
     degree,
     startDate,
@@ -41,5 +41,3 @@ const EducationEntry = function ({
         </Container>
     );
 };
-
-export default EducationEntry;

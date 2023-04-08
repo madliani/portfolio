@@ -1,6 +1,6 @@
-import EducationEntry from "./educationEntry";
+import { EducationEntry } from "./educationEntry";
 
-const Education = function () {
+export const Education = function () {
     return (
         <div className="Education">
             <div className="container my-5">
@@ -44,5 +44,3 @@ const Education = function () {
         </div>
     );
 };
-
-export default Education;

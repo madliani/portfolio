@@ -1,8 +1,8 @@
-import Projects from "../components/projects";
-import SEO from "../components/seo";
-import Layout from "../layouts/layout";
+import { Projects } from "../components/projects";
+import { SEO } from "../components/seo";
+import { Layout } from "../layouts/layout";
 
-const Portfolio = function () {
+export const Portfolio = function () {
     return (
         <>
             <SEO title="Portfolio" />
@@ -14,5 +14,3 @@ const Portfolio = function () {
         </>
     );
 };
-
-export default Portfolio;
