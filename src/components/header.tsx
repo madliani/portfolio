@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const NavbarWrapper = styled.nav`
+const Navbar = styled.nav`
     padding: 30px 0;
 `;
 
@@ -49,9 +49,8 @@ const TogglerIcon = styled.span`
     background-image: url("../../assets/icons/toggler-icon.svg");
 `;
 
-export const Navbar = function () {
-    const [menu, setAsOpen] = useState<boolean>(false);
-
+export const Header = function () {
+    const [menu, setAsOpen] = useState(false);
     // eslint-disable-next-line react-perf/jsx-no-new-function-as-prop
     const toggleNav = () => {
         setAsOpen(!menu);
@@ -61,7 +60,7 @@ export const Navbar = function () {
 
     return (
         <div>
-            <NavbarWrapper className="navbar navbar-expand-sm">
+            <Navbar className="navbar navbar-expand-sm">
                 <div className="container">
                     <Toggler
                         className="navbar-toggler ms-auto"
@@ -93,7 +92,7 @@ export const Navbar = function () {
                         </Nav>
                     </div>
                 </div>
-            </NavbarWrapper>
+            </Navbar>
         </div>
     );
 };

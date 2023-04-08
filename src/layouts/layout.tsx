@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine, ISourceOptions } from "tsparticles-engine";
 
-import { Navbar } from "../components/navbar";
+import { Header } from "../components/header";
 
 type Properties = {
     children: ReactNode;
@@ -85,7 +85,7 @@ export const Layout = ({ children }: Properties) => {
     return (
         <>
             <Particles init={init} options={options} />
-            <Navbar />
+            <Header />
             <main>{children}</main>
         </>
     );
