@@ -11,32 +11,42 @@ function SEO({
     description = "My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript.",
     lang = "en",
     meta = [],
-    title
+    title = "Rakhman A."
 }: SEOProps) {
-    const defaultTitle = "Rakhman A.";
+    const htmlAttributes = {
+        lang
+    };
+    const titleTemplates = `${title} | %s`;
 
     return (
         <Helmet
-            // eslint-disable-next-line react-perf/jsx-no-new-object-as-prop
-            htmlAttributes={{
-                lang
-            }}
-            title={title}
-            titleTemplate={defaultTitle ? `${defaultTitle} | %s` : ""}
+            htmlAttributes={htmlAttributes}
             meta={[
                 {
                     name: "description",
                     content: description
                 },
                 {
+                    property: "og:description",
+                    content: description
+                },
+                {
+                    name: "og:image",
+                    content:
+                        "https://raw.githubusercontent.com/crystallographer/portfolio/main/src/assets/images/portfolio-homepage.png"
+                },
+                {
+                    name: "og:site_name",
+                    content: "crystallographer.github.io"
+                },
+                {
                     property: "og:title",
                     content: title
                 },
-                {
-                    property: "og:description",
-                    content: description
-                }
-            ].concat(meta)}
+                ...meta
+            ]}
+            title={title}
+            titleTemplate={titleTemplates}
         />
     );
 }
