@@ -184,8 +184,8 @@ const ProjectItem: React.FC<Props> = ({
                                         <div>
                                             <a
                                                 href={viewSite}
-                                                target="_blank"
                                                 rel="noopener noreferrer"
+                                                target="_blank"
                                             >
                                                 <ModalButton>
                                                     <ModalIcon
@@ -199,8 +199,8 @@ const ProjectItem: React.FC<Props> = ({
                                     <div>
                                         <a
                                             href={viewCode}
-                                            target="_blank"
                                             rel="noopener noreferrer"
+                                            target="_blank"
                                         >
                                             <ModalButton>
                                                 <ModalIcon

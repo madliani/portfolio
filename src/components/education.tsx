@@ -16,8 +16,8 @@ const Education: React.FC = () => {
                         schoolName={
                             <a
                                 href="https://petrsu.ru/en"
-                                target="_blank"
                                 rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 Petrozavodsk State University (PetrSU)
                             </a>
@@ -31,8 +31,8 @@ const Education: React.FC = () => {
                         schoolName={
                             <a
                                 href="https://petrsu.ru/en"
-                                target="_blank"
                                 rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 Petrozavodsk State University (PetrSU)
                             </a>

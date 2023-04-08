@@ -37,8 +37,8 @@ const Socials: React.FC = () => {
                     <InlineItem>
                         <a
                             href="https://linkedin.com/in/rakhman-abdurakhmanov-976b4b253"
-                            target="_blank"
                             rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <FontAwesomeIcon icon={faLinkedinIn} fixedWidth />
                         </a>
@@ -47,8 +47,8 @@ const Socials: React.FC = () => {
                     <InlineItem>
                         <a
                             href="https://github.com/crystallographer"
-                            target="_blank"
                             rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <FontAwesomeIcon icon={faGithub} fixedWidth />
                         </a>
@@ -57,8 +57,8 @@ const Socials: React.FC = () => {
                     <InlineItem>
                         <a
                             href="mailto:r0475582@proton.me"
-                            target="_blank"
                             rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <FontAwesomeIcon icon={faEnvelope} fixedWidth />
                         </a>

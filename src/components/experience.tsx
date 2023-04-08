@@ -19,8 +19,8 @@ const Experience: React.FC = () => {
                         company={
                             <a
                                 href="https://interso.ru"
-                                target="_blank"
                                 rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 inter://so
                             </a>
@@ -33,8 +33,8 @@ const Experience: React.FC = () => {
                                 At{" "}
                                 <a
                                     href="https://interso.ru"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     inter://so
                                 </a>
@@ -51,8 +51,8 @@ const Experience: React.FC = () => {
                         company={
                             <a
                                 href="https://axmit.com"
-                                target="_blank"
                                 rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 axmit
                             </a>
@@ -65,24 +65,24 @@ const Experience: React.FC = () => {
                                 In{" "}
                                 <a
                                     href="https://axmit.com"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     axmit
                                 </a>{" "}
                                 I worked on many outsourcing projects, such as{" "}
                                 <a
                                     href="https://getzelos.com"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     Zelos
                                 </a>{" "}
                                 and{" "}
                                 <a
                                     href="https://activatica.org"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     Activatica
                                 </a>

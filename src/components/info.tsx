@@ -47,8 +47,8 @@ const Info: React.FC = () => {
                                 hackathon organized by{" "}
                                 <a
                                     href="https://axmit.com"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     axmit
                                 </a>
@@ -60,24 +60,24 @@ const Info: React.FC = () => {
                                 At{" "}
                                 <a
                                     href="https://axmit.com"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     axmit
                                 </a>{" "}
                                 I worked on many outsourced projects such as{" "}
                                 <a
                                     href="https://getzelos.com"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     Zelos
                                 </a>{" "}
                                 and{" "}
                                 <a
                                     href="https://activatica.org"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     Activatica
                                 </a>
@@ -87,8 +87,8 @@ const Info: React.FC = () => {
                                 After that, I got a job at{" "}
                                 <a
                                     href="https://interso.ru"
-                                    target="_blank"
                                     rel="noopener noreferrer"
+                                    target="_blank"
                                 >
                                     inter://so
                                 </a>{" "}
@@ -100,8 +100,8 @@ const Info: React.FC = () => {
                             href={
                                 "https://raw.githubusercontent.com/crystallographer/portfolio/main/assets/docs/CV.pdf"
                             }
-                            target="_blank"
                             rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <ResumeButton>Download Resume</ResumeButton>
                         </a>
