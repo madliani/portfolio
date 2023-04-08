@@ -6,7 +6,9 @@ import { ProjectItemModal } from "./ProjectItemModal";
 
 type Properties = {
     imgAlt: string;
+    imgHeight?: string;
     imgSrc: string;
+    imgWidth?: string;
     projectDescription: string;
     title: string;
     viewCode: string;
@@ -38,25 +40,27 @@ const ItemCaption = styled.div`
     }
 `;
 
-const Img = styled.img`
-    width: 350px;
-    height: 200px;
-    border-radius: 6px;
-
-    @media (width <= 768px) {
-        width: 350px;
-        height: 200px;
-    }
-`;
-
 export const ProjectItem = function ({
     imgAlt,
+    imgHeight,
     imgSrc,
+    imgWidth,
     projectDescription,
     title,
     viewCode,
     viewSite
 }: Properties) {
+    const Img = styled.img`
+        width: ${imgWidth ?? "350px"};
+        height: ${imgHeight ?? "200px"};
+        border-radius: 6px;
+
+        @media (width <= 768px) {
+            width: 350px;
+            height: 200px;
+        }
+    `;
+
     const [modal, setModal] = useState(false);
 
     const toggle = () => {
