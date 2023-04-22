@@ -22,15 +22,12 @@ touch with me by sending mail.
 
 ![Homepage](./assets/images/portfolio-homepage.png)
 
-## Authors
+## Contributors
 
-Rakhman Abdurakhmanov - [Portfolio](https://crystallographer.github.io) |
-[GitHub](https://github.com/crystallographer).
+-   [Rakhman Abdurakhmanov](https://crystallographer.github.io) - creator and
+    maintainer
+
+## Authoring
 
 Based on [Portfolio](https://github.com/ksentak/keaton-portfolio) by
 [Keaton Sentak](https://keatonsentak.com).
-
-## License
-
-The MIT License - [Open Source Initiative](https://opensource.org/license/mit) |
-[Free Software Directory](https://directory.fsf.org/wiki/License:Expat).
