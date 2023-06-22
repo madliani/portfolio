@@ -31,9 +31,9 @@ export const Projects = function () {
                     />
                     <ProjectItem
                         imgAlt="Emojer icon"
-                        imgHeight="200px"
-                        imgSrc="https://raw.githubusercontent.com/crystallographer/emojer/master/assets/images/emoji.png"
-                        imgWidth="200px"
+                        imgHeight="192px"
+                        imgSrc="https://raw.githubusercontent.com/crystallographer/emojer/master/assets/icons/emoji.png"
+                        imgWidth="192px"
                         projectDescription="The Emoji Compiler."
                         title="Emojer"
                         viewCode="https://github.com/crystallographer/emojer"
