@@ -31,7 +31,7 @@ export const Projects = function () {
                     />
                     <ProjectItem
                         imgAlt="Market"
-                        imgSrc="https://raw.githubusercontent.com/crystallographer/market/main/assets/images/market-homepage.png"
+                        imgSrc="https://raw.githubusercontent.com/crystallographer/market/main/src/images/market-homepage.png"
                         projectDescription="Web market."
                         title="Market"
                         viewCode="https://github.com/crystallographer/market"
