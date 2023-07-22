@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowArbitraryExtensions": false,
+    "allowImportingTsExtensions": false,
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "allowUmdGlobalAccess": false,
@@ -19,7 +21,6 @@
     "experimentalDecorators": false,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "importsNotUsedAsValues": "remove",
     "incremental": false,
     "inlineSourceMap": false,
     "inlineSources": false,
@@ -29,10 +30,10 @@
     "lib": [
       "DOM",
       "DOM.Iterable",
-      "ESNext"
+      "ES2022"
     ],
     "maxNodeModuleJsDepth": 1,
-    "module": "ESNext",
+    "module": "ES2022",
     "moduleResolution": "Node",
     "newLine": "lf",
     "noEmit": true,
@@ -53,7 +54,6 @@
     "noUnusedParameters": true,
     "preserveConstEnums": false,
     "preserveSymlinks": false,
-    "preserveValueImports": false,
     "removeComments": true,
     "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
@@ -67,15 +67,21 @@
     "stripInternal": false,
     "suppressExcessPropertyErrors": false,
     "suppressImplicitAnyIndexErrors": false,
-    "target": "ES6",
+    "target": "ES2022",
+    "types": [
+      "jest",
+      "vite/client"
+    ],
     "useDefineForClassFields": true,
-    "useUnknownInCatchVariables": true
+    "useUnknownInCatchVariables": true,
+    "verbatimModuleSyntax": false
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
     "src",
-    "tests"
+    "tests",
+    "vite.config.ts"
   ]
 }
