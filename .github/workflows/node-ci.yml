@@ -1,6 +1,6 @@
 concurrency:
     cancel-in-progress: true
-    group: "pages"
+    group: ${{ github.ref }}
 
 jobs:
     deploy:
