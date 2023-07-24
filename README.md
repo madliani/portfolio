@@ -1,11 +1,11 @@
 # Portfolio
 
-<div align="center">
+<p align="center">
     <img src="./assets/icons/apple-touch-icon.png" alt="Portfolio logo" />
 
     My Portfolio Website
 
-</div>
+</p>
 
 ![Built with Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Built with React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
