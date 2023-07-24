@@ -80,6 +80,7 @@
     "node_modules"
   ],
   "include": [
+    "deploy.mts",
     "src",
     "tests",
     "vite.config.ts"
