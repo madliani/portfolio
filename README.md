@@ -34,10 +34,6 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.
-
 ### `yarn build`
 
 Builds the app for production to the `dist` folder.\
@@ -49,7 +45,7 @@ Your app is ready to be deployed!
 
 ## Contributors
 
-- [Rakhman Abdurakhmanov](https://crystallographer.github.io) - creator and
+-   [Rakhman Abdurakhmanov](https://crystallographer.github.io) - creator and
     maintainer
 
 ## Authoring
