@@ -1,7 +1,7 @@
 import { ReactNode, useCallback } from "react";
-import { Particles } from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import { Particles } from "react-particles";
 import type { Engine, ISourceOptions } from "tsparticles-engine";
+import { loadLinksPreset } from "tsparticles-preset-links";
 import { Header } from "../components/Header";
 
 type Properties = {
@@ -68,7 +68,7 @@ const options: ISourceOptions = {
             value: 0.5
         },
         shape: {
-            type: "circle"
+            type: "square"
         },
         size: {
             value: { max: 5, min: 1 }
@@ -78,7 +78,7 @@ const options: ISourceOptions = {
 
 export const Layout = ({ children }: Properties) => {
     const init = useCallback(async (engine: Engine) => {
-        await loadFull(engine);
+        await loadLinksPreset(engine);
     }, []);
 
     return (
