@@ -4,13 +4,6 @@ import { createGlobalStyle } from "styled-components";
 import { router } from "../router/router";
 
 const GlobalStyle = createGlobalStyle`
-    @font-face {
-        font-family: "JetBrains Mono";
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-        src: url("../../assets/fonts/JetBrains Mono/JetBrainsMono-Regular.woff2") format("woff2");
-    }
 
     :root {
         --light: #fff;
@@ -27,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         height: 100%;
-        font-family: "JetBrains Mono", monospace;
+        font-family: monospace;
         line-height: 26px;
         color: var(--light);
         background: var(--dark);
