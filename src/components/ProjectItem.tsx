@@ -1,7 +1,7 @@
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import styled from "styled-components";
+import { styled } from "styled-components";
 import { ProjectItemModal } from "./ProjectItemModal";
 
 type Properties = {

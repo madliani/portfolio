@@ -5,7 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Modal } from "reactstrap";
-import styled from "styled-components";
+import { styled } from "styled-components";
 
 type Properties = {
     imgAlt: string;
@@ -22,6 +22,8 @@ const ModalBody = styled.div`
     background-color: var(--dark);
 `;
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 const ModalWrapper = styled(({ children, ...properties }) => (
     <Modal {...properties}>{children}</Modal>
 ))`
@@ -53,7 +55,11 @@ const Links = styled.div`
     justify-content: center;
 `;
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 const Icon = styled(({ children, ...properties }) => (
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     <FontAwesomeIcon {...properties}>{children}</FontAwesomeIcon>
 ))`
     margin-right: 5px;
@@ -122,6 +128,8 @@ export const ProjectItemModal = function ({
                                             target="_blank"
                                         >
                                             <Button>
+                                                {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+                                                {/* @ts-ignore */}
                                                 <Icon
                                                     icon={faExternalLinkAlt}
                                                 ></Icon>
@@ -137,6 +145,8 @@ export const ProjectItemModal = function ({
                                         target="_blank"
                                     >
                                         <Button>
+                                            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+                                            {/* @ts-ignore */}
                                             <Icon icon={faCode}></Icon>
                                             View Code
                                         </Button>

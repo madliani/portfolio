@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import { styled } from "styled-components";
 
 const PROFILE_IMAGE = process.env.PROFILE_IMAGE;
 

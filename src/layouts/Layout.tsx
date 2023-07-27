@@ -1,5 +1,5 @@
 import { ReactNode, useCallback } from "react";
-import Particles from "react-tsparticles";
+import { Particles } from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine, ISourceOptions } from "tsparticles-engine";
 import { Header } from "../components/Header";
@@ -83,6 +83,8 @@ export const Layout = ({ children }: Properties) => {
 
     return (
         <>
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore */}
             <Particles init={init} options={options} />
             <Header />
             <main>{children}</main>

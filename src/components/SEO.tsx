@@ -9,12 +9,12 @@ type Properties = {
     title: string;
 };
 
-export const SEO = function ({
+export const SEO = ({
     description = "My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript.",
     lang = "en",
     meta = [],
     title
-}: Properties) {
+}: Properties) => {
     const htmlAttributes = {
         lang
     };
