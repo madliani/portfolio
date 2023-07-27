@@ -115,7 +115,7 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const App = function () {
+export const App = () => {
     return (
         <>
             <GlobalStyle />

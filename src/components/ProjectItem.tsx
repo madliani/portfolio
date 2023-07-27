@@ -41,7 +41,7 @@ const ItemCaption = styled.div`
     }
 `;
 
-export const ProjectItem = function ({
+export const ProjectItem = ({
     imgAlt,
     imgHeight,
     imgSrc,
@@ -50,7 +50,7 @@ export const ProjectItem = function ({
     title,
     viewCode,
     viewSite
-}: Properties) {
+}: Properties) => {
     const Img = styled.img`
         width: ${imgWidth ?? "350px"};
         height: ${imgHeight ?? "200px"};

@@ -50,7 +50,7 @@ const TogglerIcon = styled.span`
     background-image: url("../../assets/icons/toggler-icon.svg");
 `;
 
-export const Header = function () {
+export const Header = () => {
     const [menu, setAsOpen] = useState(false);
 
     const toggleNav = () => {

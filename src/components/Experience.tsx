@@ -1,6 +1,6 @@
 import { ExperienceEntry } from "./ExperienceEntry";
 
-export const Experience = function () {
+export const Experience = () => {
     return (
         <div className="Experience">
             <div className="container mt-5">

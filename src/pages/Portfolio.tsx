@@ -2,7 +2,7 @@ import { Projects } from "../components/Projects";
 import { SEO } from "../components/SEO";
 import { Layout } from "../layouts/Layout";
 
-export const Portfolio = function () {
+export const Portfolio = () => {
     return (
         <>
             <SEO title="Portfolio" />

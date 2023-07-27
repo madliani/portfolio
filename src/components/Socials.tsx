@@ -28,7 +28,7 @@ const InlineItem = styled.li`
     }
 `;
 
-export const Socials = function () {
+export const Socials = () => {
     return (
         <div>
             <div className="col-sm-12 text-center">

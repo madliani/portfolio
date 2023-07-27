@@ -34,7 +34,7 @@ const Description = styled.p`
     line-height: 2rem;
 `;
 
-export const ExperienceEntry = function ({
+export const ExperienceEntry = ({
     className,
     company,
     endDate,
@@ -42,7 +42,7 @@ export const ExperienceEntry = function ({
     jobTitle,
     location,
     startDate
-}: Properties) {
+}: Properties) => {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>
             <Title className="mb-1 alt-green">{jobTitle}</Title>

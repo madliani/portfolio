@@ -1,4 +1,4 @@
-export const Footer = function () {
+export const Footer = () => {
     return (
         <div className="Footer">
             <div className="col-12 text-center copyright mt-5">

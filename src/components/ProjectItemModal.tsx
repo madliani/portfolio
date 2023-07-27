@@ -84,7 +84,7 @@ const Button = styled.button`
     }
 `;
 
-export const ProjectItemModal = function ({
+export const ProjectItemModal = ({
     imgAlt,
     imgSrc,
     modal,
@@ -93,7 +93,7 @@ export const ProjectItemModal = function ({
     toggle,
     viewCode,
     viewSite
-}: Properties) {
+}: Properties) => {
     return (
         <ModalWrapper isOpen={modal} role="dialog" size="lg" toggle={toggle}>
             <button

@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { styled } from "styled-components";
 import { Socials } from "./Socials";
 
-const words = [
+const sentences = [
     "I'm front-end developer",
     "I'm linux user",
     "I'm mathematician"
@@ -32,7 +32,7 @@ const Content = styled.div`
     font-size: 75px;
 `;
 
-export const Banner = function () {
+export const Banner = () => {
     return (
         <Container>
             <Jumbotron className="jumbotron jumbotron-fluid">
@@ -45,7 +45,7 @@ export const Banner = function () {
                             cursor
                             cursorBlinking
                             loop={false}
-                            words={words}
+                            words={sentences}
                         />
                     </h6>
                     <Socials />

@@ -1,7 +1,7 @@
 import PortfolioHomepage from "../../assets/images/portfolio-homepage.png";
 import { ProjectItem } from "./ProjectItem";
 
-export const Projects = function () {
+export const Projects = () => {
     return (
         <div>
             <div className="container">

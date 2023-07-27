@@ -4,7 +4,7 @@ import { Info } from "../components/Info";
 import { SEO } from "../components/SEO";
 import { Layout } from "../layouts/Layout";
 
-export const About = function () {
+export const About = () => {
     return (
         <>
             <SEO title="About" />

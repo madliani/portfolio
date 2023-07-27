@@ -23,14 +23,14 @@ const DegreeDates = styled.h6`
     font-weight: 500;
 `;
 
-export const EducationEntry = function ({
+export const EducationEntry = ({
     className,
     degree,
     description,
     endDate,
     schoolName,
     startDate
-}: Properties) {
+}: Properties) => {
     return (
         <Container className={className ? `col-12 ${className}` : "col-12"}>
             <Title className="mb-1 alt-green">{schoolName}</Title>

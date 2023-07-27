@@ -18,7 +18,7 @@ const Jumbotron = styled.div`
     }
 `;
 
-export const ErrorPage = function () {
+export const ErrorPage = () => {
     return (
         <>
             <SEO title="404: Not Found" />
