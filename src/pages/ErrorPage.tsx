@@ -12,6 +12,7 @@ const Jumbotron = styled.div`
     text-align: center;
     background: none;
 
+    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
     @media (width <= 768px) {
         top: 12vh;
     }

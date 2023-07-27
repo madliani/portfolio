@@ -25,6 +25,7 @@ const Nav = styled.ul`
         color: var(--light);
     }
 
+    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
     @media (width <= 768px) {
         li {
             padding-bottom: 7px;

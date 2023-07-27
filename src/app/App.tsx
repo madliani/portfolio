@@ -107,6 +107,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: #d3d3d3;
     }
 
+    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
     @media (width >= 1400px) {
         .container {
             max-width: 1140px !important;
