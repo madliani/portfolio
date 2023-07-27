@@ -110,7 +110,7 @@
     },
     "scripts": {
         "build": "vite build",
-        "deploy": "ts-node --esm './deploy.mts'",
+        "deploy": "ts-node --esm './deploy.mjs'",
         "dev": "vite",
         "format": "prettier --write './src/**/*.{ts,tsx}'",
         "lint": "stylelint --fix './src/**/*.{ts,tsx}' && eslint --fix './src/**/*.{ts,tsx}' && tsc --noEmit",

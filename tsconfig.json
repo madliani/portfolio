@@ -70,5 +70,5 @@
         "verbatimModuleSyntax": false
     },
     "exclude": ["node_modules"],
-    "include": ["deploy.mts", "src", "vite.config.ts"]
+    "include": ["deploy.mjs", "src", "vite.config.ts"]
 }
