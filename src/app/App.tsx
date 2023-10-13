@@ -4,7 +4,6 @@ import { createGlobalStyle } from "styled-components";
 import { router } from "../router/router";
 
 const GlobalStyle = createGlobalStyle`
-
     :root {
         --light: #fff;
         --dark: #2d2d30;

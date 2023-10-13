@@ -53,7 +53,7 @@ export const Socials = () => {
                     </InlineItem>
                     <InlineItem>
                         <a
-                            href="mailto:r0475582@proton.me"
+                            href="mailto:madliani@hotmail.com"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
