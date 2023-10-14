@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { Socials } from "./Socials";
 
 const sentences = [
@@ -8,11 +8,13 @@ const sentences = [
     "I'm mathematician"
 ];
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Container = styled.div`
     position: relative;
     height: 80vh;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Jumbotron = styled.div`
     position: absolute;
     top: 20vh;
@@ -28,6 +30,7 @@ const Jumbotron = styled.div`
     }
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Content = styled.div`
     font-size: 75px;
 `;

@@ -1,7 +1,7 @@
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { ProjectItemModal } from "./ProjectItemModal";
 
 type Properties = {
@@ -15,12 +15,14 @@ type Properties = {
     viewSite?: string;
 };
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Item = styled.div`
     position: relative;
     display: block;
     margin-bottom: 30px;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const ItemCaption = styled.div`
     cursor: pointer;
     position: absolute;

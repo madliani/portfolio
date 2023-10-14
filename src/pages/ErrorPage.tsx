@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { SEO } from "../components/SEO";
 import { Layout } from "../layouts/Layout";
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Jumbotron = styled.div`
     position: absolute;
     top: 20vh;

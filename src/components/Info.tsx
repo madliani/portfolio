@@ -1,11 +1,13 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 const PROFILE_IMAGE = process.env.PROFILE_IMAGE;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const AboutText = styled.div`
     line-height: 2rem;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const ResumeButton = styled.button`
     margin: 2rem 0 1rem;
     padding: 18px 40px;
@@ -20,6 +22,7 @@ const ResumeButton = styled.button`
     }
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Image = styled.img`
     width: 300px;
     height: 350px;

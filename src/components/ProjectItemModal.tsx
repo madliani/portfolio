@@ -5,7 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Modal } from "reactstrap";
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 type Properties = {
     imgAlt: string;
@@ -18,12 +18,12 @@ type Properties = {
     viewSite?: string;
 };
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const ModalBody = styled.div`
     background-color: var(--dark);
 `;
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const ModalWrapper = styled(({ children, ...properties }) => (
     <Modal {...properties}>{children}</Modal>
 ))`
@@ -41,22 +41,24 @@ const ModalWrapper = styled(({ children, ...properties }) => (
     }
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Title = styled.h2`
     color: var(--light);
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Img = styled.img`
     border-radius: 6px;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Links = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
 `;
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Icon = styled(({ children, ...properties }) => (
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
@@ -66,6 +68,7 @@ const Icon = styled(({ children, ...properties }) => (
     color: var(--light);
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Button = styled.button`
     margin: 10px;
     padding: 10px 20px;

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 type Properties = {
     className?: string;
@@ -11,23 +11,28 @@ type Properties = {
     startDate: string;
 };
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Container = styled.div`
     margin: 0.5rem 0;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Title = styled.h3`
     font-weight: 700;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Company = styled.h4`
     font-weight: 600;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const DatesLocation = styled.h6`
     font-size: 1.2rem;
     font-weight: 500;
 `;
 
+// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Description = styled.p`
     margin: 0.2rem 0;
     font-size: 1rem;
