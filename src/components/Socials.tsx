@@ -36,7 +36,7 @@ export const Socials = () => {
                 <ul>
                     <InlineItem>
                         <a
-                            href="https://linkedin.com/in/rakhman-abdurakhmanov-976b4b253"
+                            href="https://linkedin.com/in/rakhman-abdurakhmanov"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
