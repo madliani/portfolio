@@ -83,8 +83,6 @@ export const Layout = ({ children }: Properties) => {
 
     return (
         <>
-            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-            {/* @ts-ignore */}
             <Particles init={init} options={options} />
             <Header />
             <main>{children}</main>

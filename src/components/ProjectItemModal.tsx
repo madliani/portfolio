@@ -131,8 +131,6 @@ export const ProjectItemModal = ({
                                             target="_blank"
                                         >
                                             <Button>
-                                                {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-                                                {/* @ts-ignore */}
                                                 <Icon
                                                     icon={faExternalLinkAlt}
                                                 ></Icon>
@@ -148,8 +146,6 @@ export const ProjectItemModal = ({
                                         target="_blank"
                                     >
                                         <Button>
-                                            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-                                            {/* @ts-ignore */}
                                             <Icon icon={faCode}></Icon>
                                             View Code
                                         </Button>
