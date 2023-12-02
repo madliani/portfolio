@@ -2,12 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Navbar = styled.nav`
     padding: 30px 0;
 `;
 
-// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Nav = styled.ul`
     a {
         margin: 0 10px;
@@ -35,7 +33,6 @@ const Nav = styled.ul`
     }
 `;
 
-// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Toggler = styled.button`
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -81,17 +78,20 @@ export const Header = () => {
                         id="navbarMobile"
                     >
                         <Nav className="navbar-nav ms-auto" id="menu-primary">
-                            {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
-                            <li onClick={toggleNav}>
-                                <Link to="/">Home</Link>
+                            <li>
+                                <Link onClick={toggleNav} to="/">
+                                    Home
+                                </Link>
                             </li>
-                            {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
-                            <li onClick={toggleNav}>
-                                <Link to="/about">About</Link>
+                            <li>
+                                <Link onClick={toggleNav} to="/about">
+                                    About
+                                </Link>
                             </li>
-                            {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */}
-                            <li onClick={toggleNav}>
-                                <Link to="/portfolio">Portfolio</Link>
+                            <li>
+                                <Link onClick={toggleNav} to="/portfolio">
+                                    Portfolio
+                                </Link>
                             </li>
                         </Nav>
                     </div>

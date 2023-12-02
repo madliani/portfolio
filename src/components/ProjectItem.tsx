@@ -15,14 +15,12 @@ type Properties = {
     viewSite?: string;
 };
 
-// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const Item = styled.div`
     position: relative;
     display: block;
     margin-bottom: 30px;
 `;
 
-// eslint-disable @typescript-eslint/no-unsafe-assignment @typescript-eslint/no-unsafe-member-access @typescript-eslint/no-unsafe-call
 const ItemCaption = styled.div`
     cursor: pointer;
     position: absolute;
@@ -74,7 +72,6 @@ export const ProjectItem = ({
     return (
         <>
             <div className="col-lg-4 col-md-6">
-                {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
                 <Item className="mx-auto" onClick={toggle}>
                     <ItemCaption className="d-flex align-items-center justify-content-center h-100 w-100">
                         <div className="text-center text-white">
