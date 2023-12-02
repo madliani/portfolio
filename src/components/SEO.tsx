@@ -34,11 +34,11 @@ export const SEO = ({
                 },
                 {
                     content:
-                        "https://raw.githubusercontent.com/crystallographer/portfolio/main/src/assets/images/portfolio-homepage.png",
+                        "https://raw.githubusercontent.com/madliani/portfolio/main/src/assets/images/portfolio-homepage.png",
                     name: "og:image"
                 },
                 {
-                    content: "crystallographer.github.io",
+                    content: "madliani.github.io",
                     name: "og:site_name"
                 },
                 {

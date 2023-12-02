@@ -11,8 +11,10 @@ const InlineItem = styled.li`
         width: 50px;
         height: 50px;
         padding: 12px;
+
         font-size: 20px;
         color: var(--light);
+
         background-color: var(--dark);
         border: 2px solid var(--green-alt);
         border-radius: 1.25rem;
@@ -44,7 +46,7 @@ export const Socials = () => {
                     </InlineItem>
                     <InlineItem>
                         <a
-                            href="https://github.com/crystallographer"
+                            href="https://github.com/madliani"
                             rel="noopener noreferrer"
                             target="_blank"
                         >

@@ -9,7 +9,9 @@ const AboutText = styled.div`
 const ResumeButton = styled.button`
     margin: 2rem 0 1rem;
     padding: 18px 40px;
+
     color: var(--light) !important;
+
     background-color: var(--dark);
     border: 2px solid var(--green-alt);
     border-radius: 1.25rem;
@@ -96,7 +98,7 @@ export const Info = () => {
                         </AboutText>
                         <a
                             href={
-                                "https://raw.githubusercontent.com/crystallographer/portfolio/main/assets/docs/CV.pdf"
+                                "https://raw.githubusercontent.com/madliani/portfolio/main/assets/docs/CV.pdf"
                             }
                             rel="noopener noreferrer"
                             target="_blank"

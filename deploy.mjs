@@ -4,7 +4,7 @@ publish(
     "./dist",
     {
         branch: "main",
-        repo: "https://github.com/crystallographer/crystallographer.github.io.git"
+        repo: "https://github.com/madliani/madliani.github.io.git"
     },
     console.error
 );

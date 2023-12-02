@@ -1,12 +1,12 @@
 {
     "author": {
         "email": "madliani@hotmail.com",
-        "name": "crystallographer",
-        "url": "https://crystallographer.github.io"
+        "name": "madliani",
+        "url": "https://madliani.github.io"
     },
     "bugs": {
         "email": "madliani@hotmail.com",
-        "url": "https://github.com/crystallographer/portfolio/issues"
+        "url": "https://github.com/madliani/portfolio/issues"
     },
     "cpu": [
         "x64"
@@ -84,7 +84,7 @@
         "node": ">=18.16.0"
     },
     "engineStrict": true,
-    "homepage": "https://crystallographer.github.io",
+    "homepage": "https://madliani.github.io",
     "keywords": [
         "bootstrap",
         "pnpm",
@@ -105,7 +105,7 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/crystallographer/portfolio.git"
+        "url": "git+https://github.com/madliani/portfolio.git"
     },
     "scripts": {
         "build": "vite build",
