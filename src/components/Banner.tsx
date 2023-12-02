@@ -4,7 +4,7 @@ import { Socials } from "./Socials";
 
 const sentences = [
     "I'm front-end developer",
-    "I'm linux user",
+    "I'm Linux user",
     "I'm mathematician"
 ];
 
