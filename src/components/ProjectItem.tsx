@@ -23,18 +23,20 @@ const Item = styled.div`
 
 const ItemCaption = styled.div`
     cursor: pointer;
+
     position: absolute;
+
     opacity: 0;
     background-color: rgb(0 0 0 / 20%);
     border-radius: 6px;
+
     transition: all 0.2s ease-in-out;
 
     &:hover {
         opacity: 1;
     }
 
-    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
-    @media (width <= 768px) {
+    @media (max-width: 768px) {
         &:hover {
             opacity: 0;
         }
@@ -56,8 +58,7 @@ export const ProjectItem = ({
         height: ${imgHeight ?? "200px"};
         border-radius: 6px;
 
-        /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
-        @media (width <= 768px) {
+        @media (max-width: 768px) {
             width: ${imgWidth ?? "350px"};
             height: ${imgHeight ?? "200px"};
         }

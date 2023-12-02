@@ -19,9 +19,11 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         height: 100%;
+
         font-family: monospace;
         line-height: 26px;
         color: var(--light);
+
         background: var(--dark);
     }
 
@@ -84,7 +86,9 @@ const GlobalStyle = createGlobalStyle`
     .primary-btn {
         margin-bottom: 25px;
         padding: 15px 50px;
+
         color: var(--light) !important;
+
         background-color: var(--dark);
         border: 2px solid var(--green-alt);
         border-radius: 1.25rem;
@@ -99,8 +103,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: #d3d3d3;
     }
 
-    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
-    @media (width >= 1400px) {
+    @media (min-width: 1400px) {
         .container {
             max-width: 1140px !important;
         }

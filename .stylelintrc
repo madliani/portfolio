@@ -2,7 +2,7 @@
     "customSyntax": "postcss-styled-syntax",
     "extends": [
         "stylelint-config-clean-order",
-        "stylelint-config-standard",
+        "stylelint-config-recommended",
         "stylelint-config-styled-components"
     ],
     "plugins": ["stylelint-no-unsupported-browser-features", "stylelint-order"],

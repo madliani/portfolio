@@ -11,6 +11,7 @@ const Nav = styled.ul`
         margin: 0 10px;
         padding-right: 0.5em;
         padding-left: 0.5em;
+
         font-size: 18px;
         font-weight: 500;
         color: var(--light);
@@ -25,8 +26,7 @@ const Nav = styled.ul`
         color: var(--light);
     }
 
-    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
-    @media (width <= 768px) {
+    @media (max-width: 768px) {
         li {
             padding-bottom: 7px;
         }

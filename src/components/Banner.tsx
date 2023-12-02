@@ -16,14 +16,16 @@ const Container = styled.div`
 const Jumbotron = styled.div`
     position: absolute;
     top: 20vh;
+
     width: 100%;
     margin: 0;
     padding: 2rem 1rem;
+
     text-align: center;
+
     background: none;
 
-    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
-    @media (width <= 768px) {
+    @media (max-width: 768px) {
         top: 12vh;
     }
 `;
