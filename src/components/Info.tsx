@@ -42,59 +42,13 @@ export const Info = () => {
                 <div className="row text-start">
                     <div className="col-md-6 about-section">
                         <AboutText>
-                            <p>
-                                My journey into front-end development began at a
-                                hackathon organized by{" "}
-                                <a
-                                    href="https://axmit.com"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    axmit
-                                </a>
-                                . I participated in it together with a team of
-                                other guys. We were in the top three finalists
-                                and were invited to work.
-                            </p>
-                            <p>
-                                At{" "}
-                                <a
-                                    href="https://axmit.com"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    axmit
-                                </a>{" "}
-                                I worked on many outsourced projects such as{" "}
-                                <a
-                                    href="https://getzelos.com"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    Zelos
-                                </a>{" "}
-                                and{" "}
-                                <a
-                                    href="https://activatica.org"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    Activatica
-                                </a>
-                                .
-                            </p>
-                            <p>
-                                After that, I got a job at{" "}
-                                <a
-                                    href="https://interso.ru"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    inter://so
-                                </a>{" "}
-                                as the main front-end developer in their startup
-                                project.
-                            </p>
+                            I am a hardworking and responsible programmer with
+                            two years of commercial development experience in
+                            frontend. I have experience with React and
+                            TypeScript. I have a good understanding of layout
+                            design and excellent knowledge of JavaScript. But I
+                            can learn any technology in a reasonable amount of
+                            time if needed.
                         </AboutText>
                         <a
                             href={
