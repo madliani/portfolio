@@ -44,7 +44,6 @@ const Toggler = styled.button`
 `;
 
 const TogglerIcon = styled.span`
-    margin-right: 30px;
     font-size: 24px;
     text-align: right;
     background-image: url("../../assets/icons/toggler-icon.svg");
@@ -71,7 +70,7 @@ export const Header = () => {
                         onClick={toggleNav}
                         type="button"
                     >
-                        <TogglerIcon className="navbar-toggler-icon" />
+                        <TogglerIcon className="navbar-toggler-icon navbar-dark" />
                     </Toggler>
                     <div
                         className={"collapse navbar-collapse " + show}
