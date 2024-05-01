@@ -6,7 +6,7 @@ const Navbar = styled.nav`
     padding: 30px 0;
 `;
 
-const NavbarNav = styled.ul`
+const Nav = styled.ul`
     a {
         margin: 0 10px;
         padding-right: 0.5em;
@@ -32,8 +32,6 @@ const NavbarNav = styled.ul`
         }
     }
 `;
-
-const NavbarLi = styled.li``;
 
 const Toggler = styled.button`
     padding-right: 0 !important;
@@ -78,21 +76,18 @@ export const Header = () => {
                         className={"collapse navbar-collapse " + show}
                         id="navbarMobile"
                     >
-                        <NavbarNav
-                            className="navbar-nav ms-auto"
-                            id="menu-primary"
-                        >
-                            <NavbarLi>
+                        <Nav className="navbar-nav ms-auto" id="menu-primary">
+                            <li>
                                 <Link onClick={toggleNav} to="/">
                                     Home
                                 </Link>
-                            </NavbarLi>
-                            <NavbarLi>
+                            </li>
+                            <li>
                                 <Link onClick={toggleNav} to="/about">
                                     About
                                 </Link>
-                            </NavbarLi>
-                        </NavbarNav>
+                            </li>
+                        </Nav>
                     </div>
                 </div>
             </Navbar>
