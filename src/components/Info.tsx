@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ProfilePhoto from "../../assets/images/profile-photo.jpeg";
+import Photo from "../../assets/images/photo.jpeg";
 
 const AboutText = styled.div`
     line-height: 2rem;
@@ -60,7 +60,7 @@ export const Info = () => {
                         </a>
                     </div>
                     <div className="col-md-6 mb-3 d-flex justify-content-center">
-                        <Image alt="Profile photo" src={ProfilePhoto} />
+                        <Image alt="Photo" src={Photo} />
                     </div>
                 </div>
             </div>
