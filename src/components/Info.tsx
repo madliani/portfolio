@@ -1,6 +1,5 @@
 import styled from "styled-components";
-
-const PROFILE_IMAGE = process.env.PROFILE_IMAGE;
+import ProfilePhoto from "../../assets/images/profile-photo.jpeg";
 
 const AboutText = styled.div`
     line-height: 2rem;
@@ -60,14 +59,9 @@ export const Info = () => {
                             <ResumeButton>Download Resume</ResumeButton>
                         </a>
                     </div>
-                    {PROFILE_IMAGE && (
-                        <div className="col-md-6 mb-3 d-flex justify-content-center">
-                            <Image
-                                alt="Profile"
-                                src={`data:image/png;base64,${PROFILE_IMAGE}`}
-                            />
-                        </div>
-                    )}
+                    <div className="col-md-6 mb-3 d-flex justify-content-center">
+                        <Image alt="Photo" src={ProfilePhoto} />
+                    </div>
                 </div>
             </div>
         </div>
