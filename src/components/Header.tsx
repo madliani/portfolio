@@ -92,11 +92,6 @@ export const Header = () => {
                                     About
                                 </Link>
                             </NavbarLi>
-                            <NavbarLi>
-                                <Link onClick={toggleNav} to="/portfolio">
-                                    Portfolio
-                                </Link>
-                            </NavbarLi>
                         </NavbarNav>
                     </div>
                 </div>
