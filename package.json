@@ -74,7 +74,6 @@
         "stylelint-config-styled-components": "^0.1.1",
         "stylelint-no-unsupported-browser-features": "^7.0.0",
         "stylelint-order": "^6.0.3",
-        "ts-node": "^10.9.1",
         "tslib": "^2.6.2",
         "typescript": "^5.2.2",
         "vite": "^4.4.11",
@@ -109,7 +108,6 @@
     },
     "scripts": {
         "build": "vite build",
-        "deploy": "ts-node --esm './deploy.mjs'",
         "dev": "vite",
         "format": "prettier --write './src/**/*.{ts,tsx}'",
         "lint": "stylelint --fix './src/**/*.{ts,tsx}' && eslint --fix './src/**/*.{ts,tsx}' && tsc --noEmit",
