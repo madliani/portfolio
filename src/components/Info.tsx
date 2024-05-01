@@ -60,7 +60,7 @@ export const Info = () => {
                         </a>
                     </div>
                     <div className="col-md-6 mb-3 d-flex justify-content-center">
-                        <Image alt="Photo" src={ProfilePhoto} />
+                        <Image alt="Profile photo" src={ProfilePhoto} />
                     </div>
                 </div>
             </div>
