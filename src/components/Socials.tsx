@@ -1,4 +1,4 @@
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
@@ -35,15 +35,6 @@ export const Socials = () => {
         <div>
             <div className="col-sm-12 text-center">
                 <ul>
-                    <InlineItem>
-                        <a
-                            href="https://linkedin.com/in/rakhman-abdurakhmanov"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <FontAwesomeIcon fixedWidth icon={faLinkedinIn} />
-                        </a>
-                    </InlineItem>
                     <InlineItem>
                         <a
                             href="https://github.com/madliani"
