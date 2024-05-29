@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import ToggleIcon from "../../assets/icons/toggler-icon.svg";
 
 const Navbar = styled.nav`
     padding: 30px 0;
@@ -43,12 +44,6 @@ const Toggler = styled.button`
     }
 `;
 
-const TogglerIcon = styled.span`
-    font-size: 24px;
-    text-align: right;
-    background-image: url("../../assets/icons/toggler-icon.svg");
-`;
-
 export const Header = () => {
     const [menu, setAsOpen] = useState(false);
 
@@ -70,7 +65,11 @@ export const Header = () => {
                         onClick={toggleNav}
                         type="button"
                     >
-                        <TogglerIcon className="navbar-toggler-icon navbar-dark" />
+                        <img
+                            alt="Toggle icon"
+                            className="navbar-toggler-icon navbar-dark"
+                            src={ToggleIcon}
+                        />
                     </Toggler>
                     <div
                         className={"collapse navbar-collapse " + show}
