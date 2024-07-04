@@ -38,7 +38,7 @@ export const SEO = ({
                     name: "og:image"
                 },
                 {
-                    content: "madliani.github.io",
+                    content: "madliani.vercel.app",
                     name: "og:site_name"
                 },
                 {

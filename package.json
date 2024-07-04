@@ -2,7 +2,7 @@
     "author": {
         "email": "madliani@hotmail.com",
         "name": "madliani",
-        "url": "https://madliani.github.io"
+        "url": "https://madliani.vercel.app"
     },
     "bugs": {
         "email": "madliani@hotmail.com",
@@ -83,7 +83,7 @@
         "node": ">=18.16.0"
     },
     "engineStrict": true,
-    "homepage": "https://madliani.github.io",
+    "homepage": "https://madliani.vercel.app",
     "keywords": [
         "bootstrap",
         "pnpm",

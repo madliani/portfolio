@@ -20,7 +20,7 @@ export const Projects = () => {
                         projectDescription="My personal portfolio that was built with Bootstrap, React, styled-components and TypeScript."
                         title="Portfolio"
                         viewCode="https://github.com/madliani/portfolio"
-                        viewSite="https://crystalographer.github.io"
+                        viewSite="https://madliani.vercel.app"
                     />
                 </div>
             </div>
